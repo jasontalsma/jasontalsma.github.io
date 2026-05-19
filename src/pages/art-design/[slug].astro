@@ -1,0 +1,143 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+
+export async function getStaticPaths() {
+  const artDesignProjectIds = [
+    'mycelium',
+    'modular-cutlery',
+    'triangle-toys',
+    'experience-design',
+    'table-art',
+    'igloo'
+  ];
+  
+  const projects = await getCollection('pages');
+  return projects
+    .filter(entry => artDesignProjectIds.includes(entry.id))
+    .map(entry => ({
+      params: { slug: entry.id }, 
+      props: { entry },
+    }));
+}
+
+const { entry } = Astro.props as { entry: CollectionEntry<'pages'> };
+const { Content } = await render(entry);
+
+// Extract the first italicized block: _text_ or *text*
+const body = entry.body;
+const italicMatch = body ? body.match(/_([\s\S]+?)_/) : null;
+const projectBrief = italicMatch ? italicMatch[1] : "";
+
+const layoutType = entry.data.layoutType || 'technical';
+---
+
+<Layout 
+  title={`${entry.data.title} | Jason Talsma`}
+>
+  <!-- Hero Section -->
+  <section class="h-screen relative w-full overflow-hidden">
+    <div 
+      class="absolute inset-0 bg-cover bg-center grayscale brightness-75 scale-105"
+      style={`background-image: url('/images/${entry.data.coverImage}')`}
+    ></div>
+    
+    <div class="absolute inset-0 flex items-center px-4 md:px-32 justify-center">
+      <div class="max-w-4xl w-full">
+        <div class="backdrop-blur-sm saturate-120 bg-white/5 p-6 md:p-20 relative overflow-hidden group">
+           <!-- Text Overlay -->
+           <h1 class="text-4xl md:text-8xl font-black tracking-tighter text-white mb-6 md:mb-8 leading-[0.9] lowercase">
+            {entry.data.title}
+           </h1>
+           {projectBrief && (
+             <p class="text-base md:text-2xl text-white font-medium leading-tight max-w-2xl mix-blend-difference">
+               <Fragment set:html={projectBrief} />
+             </p>
+           )}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Content Section -->
+  <div class="bg-[#0B0B0B] text-[#F9F9F9]">
+    {layoutType === 'organic' ? (
+      <div class="py-20 px-8">
+        <div class="max-w-7xl mx-auto">
+          <div class="prose prose-invert max-w-none">
+            <Content />
+          </div>
+        </div>
+      </div>
+    ) : (
+      <div class="py-20 px-8">
+        <div class="max-w-7xl mx-auto">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-stretch">
+             <div class="prose prose-invert h-fit">
+                <Content />
+             </div>
+             <div class="grid grid-cols-2 gap-4 h-0 min-h-full overflow-y-auto pr-4 scrollbar-hide pb-40">
+                {entry.data.embeds && entry.data.embeds.map((url: string) => (
+                  <div class="col-span-2 aspect-video bg-[#111]">
+                    <iframe 
+                      src={url} 
+                      class="w-full h-full" 
+                      frameborder="0" 
+                      allow="autoplay; fullscreen; xr-spatial-tracking" 
+                      xr-spatial-tracking 
+                      execution-while-out-of-viewport 
+                      execution-while-not-rendered 
+                      web-share
+                    ></iframe>
+                  </div>
+                ))}
+                {entry.data.images && entry.data.images.map((img: string) => (
+                  <div class="group relative overflow-hidden bg-[#111] flex items-center justify-center col-span-1 aspect-square">
+                    <img 
+                      src={img} 
+                      alt="" 
+                      loading="lazy"
+                      class="w-full h-full object-cover grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 transition-all duration-700" 
+                    />
+                  </div>
+                ))}
+             </div>
+          </div>
+        </div>
+      </div>
+    )}
+  </div>
+</Layout>
+
+<style is:global>
+  @reference "../../index.css";
+  .prose h1, .prose h2, .prose h3, .prose h4 {
+    @apply uppercase tracking-widest text-[#F9F9F9]/90 font-medium mt-12 mb-6 block;
+  }
+  .prose p, .prose li {
+    @apply text-lg text-[#F9F9F9]/70 leading-relaxed font-light mb-4;
+  }
+  .prose li::marker {
+    @apply text-[#F9F9F9]/40;
+  }
+  .prose ul, .prose ol {
+    @apply mb-8;
+  }
+  .prose strong {
+    @apply text-white font-medium;
+  }
+  .prose figure, .prose p > img {
+    @apply my-16 block;
+  }
+  .prose figure img, .prose img:not(.not-prose) {
+    @apply w-full grayscale brightness-75 hover:grayscale-0 hover:brightness-100 transition-all duration-700;
+  }
+  .prose figcaption {
+    @apply mt-6 text-sm text-[#F9F9F9]/40 font-light tracking-wide max-w-2xl;
+  }
+  /* Remove the italicized paragraph from the main content since it's in the hero */
+  .prose p:first-of-type em, 
+  .prose p:first-of-type i {
+    @apply hidden;
+  }
+</style>

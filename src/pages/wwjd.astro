@@ -1,0 +1,285 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const musicTracks = [
+  {
+    id: 'box-competition',
+    title: 'Box Competition Songs',
+    url: 'https://wwjd.bandcamp.com/album/box-competition-songs',
+    embed: 'https://bandcamp.com/EmbeddedPlayer/album=3491708794/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+    type: 'bandcamp',
+    color: '#4A90E2',
+    artwork: 'https://picsum.photos/seed/box/800/800'
+  },
+  {
+    id: 'gg-bridge',
+    title: 'GG Bridge',
+    url: 'https://soundcloud.com/dj_wwjd/gg-bridge',
+    embed: 'https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/dj_wwjd/gg-bridge&visual=true&auto_play=false',
+    type: 'soundcloud',
+    color: '#E24A4A',
+    artwork: 'https://picsum.photos/seed/bridge/800/800'
+  },
+  {
+    id: 'fogged',
+    title: 'Fogged',
+    url: 'https://soundcloud.com/dj_wwjd/fogged',
+    embed: 'https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/dj_wwjd/fogged&visual=true&auto_play=false',
+    type: 'soundcloud',
+    color: '#4AE290',
+    artwork: 'https://picsum.photos/seed/fogged/800/800'
+  },
+  {
+    id: 'crazy-demo',
+    title: 'Crazy Demonstration',
+    url: 'https://soundcloud.com/dj_wwjd/crazy-demonstration',
+    embed: 'https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/dj_wwjd/crazy-demonstration&visual=true&auto_play=false',
+    type: 'soundcloud',
+    color: '#E2E24A',
+    artwork: 'https://picsum.photos/seed/crazy/800/800'
+  }
+];
+
+const externalLinks = [
+  {
+    id: 'nina',
+    title: 'Nina Protocol',
+    url: 'https://www.ninaprotocol.com/profiles/wwjd',
+    color: '#333'
+  },
+  {
+    id: 'audius',
+    title: 'Audius',
+    url: 'https://audius.co/djwwjd',
+    color: '#8E44AD'
+  },
+  {
+    id: 'subvert',
+    title: 'Subvert',
+    url: 'https://www.subvert.fm/wwjd',
+    color: '#000'
+  }
+];
+---
+
+<Layout title="Music | Jason Talsma">
+  <div id="music-canvas" class="relative w-full h-screen overflow-hidden bg-[#0B0B0B] select-none">
+    <!-- Dynamic Background -->
+    <div id="bg-art" class="absolute inset-0 opacity-0 transition-opacity duration-1000 blur-[80px] saturate-150 scale-110 pointer-events-none z-0"></div>
+    <div class="absolute inset-0 bg-black/40 z-[1] pointer-events-none"></div>
+
+    <!-- Container for floating tiles -->
+    <div id="tiles-container" class="absolute inset-0 w-full h-full z-10">
+      {musicTracks.map((track) => (
+        <div 
+          class="music-tile absolute group"
+          data-type="track"
+          data-artwork={track.artwork}
+        >
+          <div class="relative w-48 h-48 md:w-60 md:h-60 bg-[#111] overflow-hidden transition-transform duration-500 group-hover:scale-[1.02] shadow-2xl">
+            <iframe 
+              style="border: 0; width: 100%; height: 100%;" 
+              src={track.embed} 
+              allow="autoplay" 
+              frameborder="0" 
+              scrolling="no"
+              class="absolute inset-0 w-full h-full opacity-80 hover:opacity-100 transition-all duration-700"
+            ></iframe>
+          </div>
+        </div>
+      ))}
+
+      {externalLinks.map((link) => (
+        <a 
+          href={link.url} 
+          target="_blank" 
+          class="music-tile absolute group"
+          data-type="link"
+        >
+          <div class="w-12 h-12 md:w-18 md:h-18 bg-white/5 flex items-center justify-center hover:bg-white transition-all duration-500 overflow-hidden shadow-xl">
+             <img 
+               src={`/images/${link.id}-logo.png`} 
+               alt={link.title} 
+               class="w-10 h-10 md:w-16 md:h-16 object-contain grayscale group-hover:grayscale-0 transition-all"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
+             />
+             <span class="hidden text-[10px] uppercase font-bold text-black">{link.title}</span>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+
+  <script is:inline>
+    // Physics / Floating logic
+    class Tile {
+      constructor(element, containerW, containerH, existingTiles) {
+        this.el = element;
+        this.width = element.offsetWidth;
+        this.height = element.offsetHeight;
+        
+        // Find non-overlapping start position
+        let attempts = 0;
+        const maxAttempts = 100;
+        let spawned = false;
+
+        while (attempts < maxAttempts && !spawned) {
+          this.x = Math.random() * (containerW - this.width);
+          this.y = 80 + Math.random() * (containerH - this.height - 100);
+          
+          let overlap = false;
+          for (let other of existingTiles) {
+            // Buffer of 40px
+            if (this.x < other.x + other.width + 40 &&
+                this.x + this.width + 40 > other.x &&
+                this.y < other.y + other.height + 40 &&
+                this.y + this.height + 40 > other.y) {
+              overlap = true;
+              break;
+            }
+          }
+          if (!overlap) spawned = true;
+          attempts++;
+        }
+        
+        // Even slower movement (decreased by 50% again)
+        this.vx = (Math.random() - 0.5) * 0.015625;
+        this.vy = (Math.random() - 0.5) * 0.015625;
+        
+        this.updatePosition();
+
+        // Background change logic
+        if (this.el.getAttribute('data-type') === 'track') {
+          this.el.addEventListener('mouseenter', () => {
+            const artwork = this.el.getAttribute('data-artwork');
+            const bgArt = document.getElementById('bg-art');
+            if (bgArt && artwork) {
+              bgArt.style.backgroundImage = `url(${artwork})`;
+              bgArt.style.backgroundSize = 'cover';
+              bgArt.style.backgroundPosition = 'center';
+              bgArt.style.opacity = '0.4';
+            }
+          });
+        }
+      }
+
+      update(containerW, containerH, tiles) {
+        this.x += this.vx;
+        this.y += this.vy;
+
+        // Bounce off walls (accounting for header)
+        const minY = 64; 
+        const maxX = containerW - this.width;
+        const maxY = containerH - this.height;
+
+        if (this.x <= 0) { this.x = 0; this.vx *= -1; }
+        if (this.x >= maxX) { this.x = maxX; this.vx *= -1; }
+        if (this.y <= minY) { this.y = minY; this.vy *= -1; }
+        if (this.y >= maxY) { this.y = maxY; this.vy *= -1; }
+
+        // AABB Collision Resolution
+        for (let other of tiles) {
+          if (other === this) continue;
+
+          if (this.x < other.x + other.width &&
+              this.x + this.width > other.x &&
+              this.y < other.y + other.height &&
+              this.y + this.height > other.y) {
+            
+            const overlapX = Math.min(this.x + this.width, other.x + other.width) - Math.max(this.x, other.x);
+            const overlapY = Math.min(this.y + this.height, other.y + other.height) - Math.max(this.y, other.y);
+
+            if (overlapX < overlapY) {
+              const pushX = overlapX / 2;
+              if (this.x < other.x) {
+                this.x -= pushX;
+                other.x += pushX;
+              } else {
+                this.x += pushX;
+                other.x -= pushX;
+              }
+              // Reflect/Swap velocities
+              const tvx = this.vx;
+              this.vx = other.vx;
+              other.vx = tvx;
+            } else {
+              const pushY = overlapY / 2;
+              if (this.y < other.y) {
+                this.y -= pushY;
+                other.y += pushY;
+              } else {
+                this.y += pushY;
+                other.y -= pushY;
+              }
+              const tvy = this.vy;
+              this.vy = other.vy;
+              other.vy = tvy;
+            }
+          }
+        }
+
+        this.updatePosition();
+      }
+
+      updatePosition() {
+        this.el.style.transform = `translate(${this.x}px, ${this.y}px)`;
+      }
+    }
+
+    let tiles = [];
+    let animationId;
+
+    function initPhysics() {
+      const tileEls = document.querySelectorAll('.music-tile');
+      const container = document.getElementById('music-canvas');
+      if (!container) return;
+      
+      const w = container.offsetWidth;
+      const h = container.offsetHeight;
+      
+      tiles = [];
+      tileEls.forEach(el => {
+        const tile = new Tile(el, w, h, tiles);
+        tiles.push(tile);
+      });
+      
+      function animate() {
+        if (!container) return;
+        const w = container.offsetWidth;
+        const h = container.offsetHeight;
+        
+        tiles.forEach(tile => tile.update(w, h, tiles));
+        animationId = requestAnimationFrame(animate);
+      }
+      
+      animate();
+    }
+
+    // Initialize on page load
+    document.addEventListener('astro:page-load', () => {
+      initPhysics();
+    });
+
+    // Cleanup
+    document.addEventListener('astro:before-preparation', () => {
+      cancelAnimationFrame(animationId);
+    });
+  </script>
+</Layout>
+
+<style is:global>
+  #audio-player {
+    display: none !important;
+  }
+</style>
+
+<style>
+  .music-tile {
+    will-change: transform;
+    transition: transform 0.1s linear;
+  }
+  .music-tile:hover {
+    z-index: 100;
+  }
+</style>
+
