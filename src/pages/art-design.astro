@@ -35,7 +35,9 @@ const filteredProjects = artDesignProjectIds.map(id => projects.find(p => p.id =
 									src={`/images/${project.data.coverImage}`} 
 									alt=""
 									loading={index < 3 ? "eager" : "lazy"}
-									class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-100 group-hover:scale-105"
+									class={`w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-100 group-hover:scale-105 ${
+										index === 0 || index === 1 ? 'object-left' : 'object-center'
+									}`}
 								/>
 							)}
 							<div class="absolute inset-0 bg-[#0B0B0B]/20 group-hover:bg-transparent transition-colors"></div>

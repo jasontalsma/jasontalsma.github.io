@@ -9,7 +9,7 @@ embeds:
   - "https://sketchfab.com/models/a2378674ac1b4bd5b4849375c2bcac3d/embed"
   - "https://sketchfab.com/models/032ffc50b08d47f4bcf2b5bbe7d70203/embed"
 images:
-  - "/images/475b7-87d8fb_b44b2b263a634e5eaf5405a405ddba40mv2_d_9600_7200_s_4_2.png"
+  - "/images/fluidhandlingcropped.png"
   - "/images/3d34b-87d8fb_daf0b92055da4c87b8ca50f4980fb9a5mv2.png"
   - "/images/2e6e8-87d8fb_61d6924afa114fbe92a1108a83cf0034mv2.png"
   - "/images/4396f-87d8fb_08a71b9d2c6b4767af8ef0c624d3842bmv2_d_5312_2988_s_4_2.jpg"

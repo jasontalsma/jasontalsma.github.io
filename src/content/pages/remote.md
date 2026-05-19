@@ -1,7 +1,8 @@
 ---
 title: "wearable remote"
-coverImage: "asset-14010x-3984956681-e1726700858646.png"
+coverImage: "remote-hand.png"
 layoutType: "technical"
+textColor: "black"
 images:
   - "/images/mirror-teacher-reflecting.png"
   - "/images/pxl_20230106_022407008.mp_.jpg"

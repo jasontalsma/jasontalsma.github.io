@@ -9,7 +9,7 @@ _The Life & Death of an Igloo in 2015_
 
 We took advantage of the multiple blizzards that hit the northeastern United States in the harsh winter of 2015 and recruited friends and neighbors to build a formidable structure using vernacular architecture techniques.
 
-<div class="space-y-24 mt-20">
+<div class="space-y-24 mt-20 max-w-5xl mx-auto w-full px-4">
 
 <figure>
   <img src="/images/fac8b-87d8fb_fdb0b645e387478fbeaec209a10701c5mv2_d_3264_2448_s_4_2.jpg" alt="Building the base" />
@@ -57,11 +57,6 @@ We took advantage of the multiple blizzards that hit the northeastern United Sta
 </figure>
 
 <figure>
-  <img src="/images/83994-87d8fb_9629c86bc64347aabde7612563fbf2c8mv2_d_2448_3264_s_4_2.jpg" alt="First day progress" />
-  <figcaption>...and got about this far the first day.</figcaption>
-</figure>
-
-<figure>
   <img src="/images/11a1c-87d8fb_8892d2d85ec94e5eaddd5f7ac9431156mv2_d_2448_3264_s_4_2.jpg" alt="Excavation" />
   <figcaption>The excavation took a lot of energy from the crew.</figcaption>
 </figure>
@@ -73,12 +68,7 @@ We took advantage of the multiple blizzards that hit the northeastern United Sta
 
 <figure>
   <img src="/images/d670a-87d8fb_e5ac90a8533047e1ae0ae35a8284e644mv2_d_2816_1880_s_2.jpg" alt="Cleared interior" />
-  <figcaption>Finally cleared most of the unwanted ice and snow out. Could easily fit 5 well-fed college kids in the negative space we had created with our bare hands.</figcaption>
-</figure>
-
-<figure>
-  <img src="/images/71cf8-87d8fb_fab92247f82c4e50a33416514806ec1amv2_d_2816_1880_s_2.jpg" alt="Amenities" />
-  <figcaption>Music and other amenities were often brought along; with innovative installations for placement and acoustics.</figcaption>
+  <figcaption>Finally cleared most of the unwanted ice and snow out. Could easily fit 5 well-fed college kids. Music and other amenities were often brought along; with innovative installations for placement and acoustics.</figcaption>
 </figure>
 
 <figure>
@@ -97,13 +87,8 @@ We took advantage of the multiple blizzards that hit the northeastern United Sta
 </figure>
 
 <figure>
-  <img src="/images/2e7ec-87d8fb_99d6cf83eec34a6b8a046e4d87bd1144mv2_d_2816_1880_s_2.jpg" alt="Environment" />
-  <figcaption>The surrounding environment of the work site and the inspiration.</figcaption>
-</figure>
-
-<figure>
   <img src="/images/2af74-87d8fb_09d82f98d4164e988ecb749df0adfb27mv2_d_3264_2448_s_4_2.jpg" alt="Phase change" />
-  <figcaption>The igloo nearly completed its phase change in about four weeks; which can be used to calculate a rate of 1 igloo per winter season.</figcaption>
+  <figcaption>The igloo nearly completed its phase change (death) in about four weeks; which can be used to calculate a rate of 1 igloo per winter season.</figcaption>
 </figure>
 
 </div>

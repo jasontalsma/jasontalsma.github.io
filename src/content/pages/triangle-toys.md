@@ -1,7 +1,7 @@
 ---
 title: "triangle toys"
 date: 2024-04-04
-coverImage: "a8fd8-87d8fb_3c14762fea514dacbf40997f686c2f80mv2.jpg"
+coverImage: "trianglecoverphoto.jpg"
 layoutType: "organic"
 ---
 

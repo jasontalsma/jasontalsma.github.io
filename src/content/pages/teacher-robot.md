@@ -1,8 +1,9 @@
 ---
 title: "teacher's robot"
 date: 2024-10-09
-coverImage: "img_2485-3610848154-e1726701172599.jpg"
+coverImage: "swivl-robot-for-website2.png"
 layoutType: "technical"
+textColor: "black"
 images:
   - "/images/swivl-robot-for-website.png"
   - "/images/pxl_20210223_192735271.mp_.jpg"

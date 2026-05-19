@@ -21,9 +21,9 @@ images:
   - "/images/3c54f-87d8fb_67a48e1de3484b8ca07f971b6e8a54dfmv2_d_2985_3980_s_4_2.jpg"
 ---
 
-![Header Image](/images/bb857-87d8fb_b72b4a631e574a71832b4d1848805cc7mv2_d_4141_2083_s_2.jpg)
+_The goal of this project was to safely mount a custom user interface module connected to our BAC sensor systems for in-vehicle testing and looking good on tv._
 
-_See the completed project on the local news: <a href="https://www.kpax.com/news/national/under-proposed-law-alcohol-sensors-could-become-as-commonplace-as-airbags-in-new-vehicles" target="_blank" class="underline hover:text-white/80 transition-colors">kpax news</a>_
+See the completed project on the local news: <a href="https://www.kpax.com/news/national/under-proposed-law-alcohol-sensors-could-become-as-commonplace-as-airbags-in-new-vehicles" target="_blank" class="underline hover:text-white/80 transition-colors">kpax news</a>
 
 I have never before encountered the frustrations SolidWorks offers our world before this automotive design project. I spent weeks learning the software's surfacing tools to create a housing for a PCB + sheet metal user interface system. It was designed to be permanently mounted on a 2017 GM vehicle dashboard. Additive manufacturing was the fabrication method of choice due to the design complexity and need for prototype iterations.
 

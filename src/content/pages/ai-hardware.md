@@ -3,19 +3,14 @@ title: "ai classroom hardware"
 date: 2024-10-09
 coverImage: "mirror-high-five.gif"
 layoutType: "technical"
+textColor: "black"
 images:
-  - "/images/2023-04-12-10_57_41-greenshot-e1728510886911.png"
   - "/images/mirror-whiteboard-session.png"
   - "/images/mirror-small-group.png"
-  - "/images/mirror-teacher-recording.png"
   - "/images/pxl_20211203_002824160.mp_-3185202769-e1729025421742.jpg"
   - "/images/pxl_20211202_232534805.mp_-2051497039-e1729025410760.jpg"
-  - "/images/pxl_20211202_232531458.mp_-1566207325-e1729025401416.jpg"
   - "/images/pxl_20211021_223714859.mp_.jpg"
-  - "/images/pxl_20211021_224046795.mp_.jpg"
   - "/images/pxl_20211021_225324348.mp_.jpg"
-  - "/images/pxl_20210628_234803498.mp_.jpg"
-  - "/images/pxl_20210628_180836918.mp_.jpg"
   - "/images/pxl_20211022_191926400.mp_.jpg"
   - "/images/pxl_20211012_024155031.mp_.jpg"
   - "/images/pxl_20210816_225646028.mp_.jpg"
@@ -32,9 +27,8 @@ images:
   - "/images/pxl_20230822_224554640.jpg"
 ---
 
-_With the help of AI, Mirror fully automates the reflection process for students while its unique design allows the device to be set up anywhere._  
+_The goal of this project was to leverage AI to automate the reflection process for students with its rugged design allowing for use anywhere._  
   
-_[\- Swivl](https://www.swivl.com/)_
 
 As one of only two engineers on this project, I was involved in every part of every phase - from pre-concept development to the first shipments. The product is a battery powered integrated speaker, friction hinge mounted touch display, microphone array, and camera with an IR tracking remote packaged in a ruggedized form custom designed for the classroom.
 
@@ -42,31 +36,17 @@ As one of only two engineers on this project, I was involved in every part of ev
 
 My focus of interest was on Experience Design, approaching questions like: What diameter does a hand want for the rollbar/handle system? What is the optimal display size for human-like interaction? How vital is audio to creating an immersive, real-person feel? Do red LEDs look scary? To answer these questions, I led extensive brainstorming, iterative design cycles, and limited scale user testing at all stages of product development.
 
-![Whiteboard Session](/images/mirror-whiteboard-session.png)
-![Small Group Session](/images/mirror-small-group.png)
 ![Teacher Recording](/images/mirror-teacher-recording.png)
 
 Dividing responsibilities between the two engineers, I owned the Remote, the protective hinge and roll-cage system, and all interfaces with cables, accessories, and docking. I also initially lead PN and BOM control. After my colleague left before project completion, I inherited the entire mechanical system for a time, ensuring continuity and successful delivery.
 
-### Media Gallery
-- ![](/images/pxl_20211203_002824160.mp_-3185202769-e1729025421742.jpg)
-- ![](/images/pxl_20211202_232534805.mp_-2051497039-e1729025410760.jpg)
-- ![](/images/pxl_20211202_232531458.mp_-1566207325-e1729025401416.jpg)
-
 Prototyping was the main driver to our design cycles. There was constant iteration with materials from pine 2x4s, to repurposed products with in-house 3d printed housings, to professional out-sourced prototypes. Prototypes included looks-like and works-like of the full assembly, subassemblies, accessories, and single parts.
 
-![Prototype 1](/images/pxl_20211021_223714859.mp_.jpg)
-![Prototype 2](/images/pxl_20211021_224046795.mp_.jpg)
-![Prototype 3](/images/pxl_20211021_225324348.mp_.jpg)
 ![Prototype 4](/images/pxl_20210628_234803498.mp_.jpg)
-![Prototype 5](/images/pxl_20210628_180836918.mp_.jpg)
-![Prototype 6](/images/pxl_20211022_191926400.mp_.jpg)
+
 
 Material studies were always a good source of information and inspiration. purchasing products for multiple team members or shipping samples proved an effective means of communication throughout this project. Although nothing could beat a few in-person sessions to drive points home efficiently.
 
-![Material Study 1](/images/pxl_20211012_024155031.mp_.jpg)
-![Material Study 2](/images/pxl_20210816_225646028.mp_.jpg)
-![Material Study 3](/images/pxl_20210817_163244849.mp_.jpg)
 
 A large part of my time was spent troubleshooting key user experience elements like speaker requirements, ensuring optimal performance across all orientations and environments while working closely with fancy audio consultants.
 

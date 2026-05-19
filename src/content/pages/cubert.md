@@ -5,7 +5,6 @@ coverImage: "708ee-87d8fb_8ac065e1df474288a64120cb3bb85575mv2.png"
 layoutType: "technical"
 images:
   - "/images/a7f8b-87d8fb_943a82df83fe430bb4b09da7b84bf121mv2.png"
-  - "/images/ab737-87d8fb_edf26a64fdec4bae898c34ba8a3a71c6mv2.jpg"
   - "/images/3ef2b-87d8fb_8c8603bb706340ababcdb353d5ba3396mv2.png"
   - "/images/dfabf-87d8fb_eb2e988f075b47239770366c4732a822mv2_d_2898_3353_s_4_2.png"
   - "/images/e9062-87d8fb_2dff519730aa4c41b771420b57241acamv2_d_2959_3865_s_4_2.png"
@@ -14,19 +13,20 @@ images:
   - "/images/073e9-87d8fb_62d085a0a8aa40c29ade1bcf03149a89mv2_d_2500_1875_s_2.jpg"
   - "/images/d2dda-87d8fb_a8a8fb5462f14fa5bccf26fb4baa2ae1mv2.jpg"
   - "/images/bd937-87d8fb_a8b2ce743cd942e487fca20a0e525bbemv2.jpg"
-  - "/images/11b1c-87d8fb_169a504af30549868de23833fd8fa139mv2.png"
 ---
 
-**Problem Statement:**  
-The carrying and use of multiple electrical cables easily leads to tangles and damage as well as inefficient utilization.
+_The goal of this university project was to solve a simple problem statement: carrying and using multiple cables is inefficient and the inevitable tangling damages them._
 
-Cubert was designed for young adults with mobile lifestyles. These individuals consistently carry multiple electrical cords to many locations throughout the day. This targeted audience often includes college kids and traveling business men and women. Our team chose this user group in order to broaden our theoretical market as much as possible and fill an empty niche in the electronic hub market.
+Cubert was designed for young adults with mobile lifestyles. These individuals consistently carry multiple electrical cords to many locations throughout the day. My team and I spent a lot of time researching existing competition as we figured there must be a lot out there already; surprisingly there wasn't.
 
-![Design Prototype 1](/images/a7f8b-87d8fb_943a82df83fe430bb4b09da7b84bf121mv2.png)
-![Design Prototype 2](/images/ab737-87d8fb_edf26a64fdec4bae898c34ba8a3a71c6mv2.jpg)
-![Design Prototype 3](/images/3ef2b-87d8fb_8c8603bb706340ababcdb353d5ba3396mv2.png)
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
-My team and I spent a lot of time researching existing competition as we figured there must be a lot out there already; surprisingly there wasn't really. The research, however, did lead us to a host of ideas.
+The research, however, did lead us to a host of ideas.
 
 ![Concept Sketch 1](/images/dfabf-87d8fb_eb2e988f075b47239770366c4732a822mv2_d_2898_3353_s_4_2.png)
 ![Concept Sketch 2](/images/e9062-87d8fb_2dff519730aa4c41b771420b57241acamv2_d_2959_3865_s_4_2.png)
@@ -44,5 +44,3 @@ A major portion of this project was the material research and ultimate choice fo
 ![Final Assembly](/images/11b1c-87d8fb_169a504af30549868de23833fd8fa139mv2.png)
 
 I took this opportunity to integrate electrical engineering interest with my mechanical engineering background and design passion. Thoroughly followed a concise design process with clear benchmarks and milestones, reinforcing good product development practices. I enjoyed brainstorming the details necessary to successfully create the modular design, numerous functionalities and features, and actual usability. In fact, the final prototype was very durable, electrically sound, and surprisingly functional for regular use out in the wild.
-
-[DOWNLOAD PROJECT PRESENTATION](/docs/afbcf-87d8fb_e4c8c189e373489486ae9085036f6478.pdf)

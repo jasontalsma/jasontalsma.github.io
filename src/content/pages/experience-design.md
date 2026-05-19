@@ -1,6 +1,6 @@
 ---
 title: "prototyping for experience design"
-coverImage: "2b47c-87d8fb_14e668aefe594fbcb311ebfea83668abmv2_d_4078_2719_s_4_2.jpg"
+coverImage: "8b7af-87d8fb_7fd0e294b40149628a73f75e8fe843eemv2_d_2899_5153_s_4_2-1733398724-e1726701565762.jpg"
 layoutType: "organic"
 ---
 
