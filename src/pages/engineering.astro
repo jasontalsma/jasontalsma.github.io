@@ -31,12 +31,16 @@ const filteredProjects = engrProjectIds.map(id => projects.find(p => p.id === id
 						style={`animation-delay: ${index * 0.1}s`}
 					>
 						<div class="relative aspect-[4/5] overflow-hidden bg-[#1A1A1A]">
-							<img 
-								src={`/images/${project.data.coverImage}`} 
-								alt=""
-								loading={index < 3 ? "eager" : "lazy"}
-								class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-100 group-hover:scale-105"
-							/>
+							{project.data.coverImage && (
+								<img 
+									src={`/images/${project.data.coverImage}`} 
+									alt=""
+									loading={index < 3 ? "eager" : "lazy"}
+									class={`w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-100 group-hover:scale-105 ${
+										index === 0 ? 'object-right' : 'object-center'
+									}`}
+								/>
+							)}
 							<div class="absolute inset-0 bg-[#0B0B0B]/20 group-hover:bg-transparent transition-colors"></div>
 						</div>
 						<div class="flex justify-between items-baseline">

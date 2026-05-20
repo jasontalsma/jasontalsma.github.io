@@ -9,6 +9,7 @@ const pages = defineCollection({
     date: z.union([z.string(), z.date()]).optional(),
     description: z.string().optional(),
     layoutType: z.enum(['organic', 'technical']).optional(),
+    textColor: z.string().optional(),
     images: z.array(z.string()).optional(),
     gallery1: z.array(z.string()).optional(),
     gallery2: z.array(z.string()).optional(),

@@ -68,11 +68,8 @@ gallery2:
 
 ---
 
-_Textile production is the world’s second most polluting industry, second only to the oil industry. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8257395/" target="_blank" class="text-[10px] align-top ml-1 hover:underline text-white/40"><sup>[1]</sup></a>_
+Textile production is the world’s second most polluting industry, second only to the oil industry. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8257395/" target="_blank" class="text-[10px] align-top ml-1 hover:underline text-white/40"><sup>[1]</sup></a>
 
 The goal is to reuse and divert waste from one of our largest material uses (textiles) while also celebrating and signaling its global importance.
 
 I source textiles from Nigeria and Ghana and gather discarded garments in the US. I am exploring how to further existing industry and art while directly reducing the strain of new materials and their waste on our planet. Special attention is paid to combining multiple processes to reach a zero waste system. There is no scrap. All organic waste from this project is diverted to **[mycelium form and design research.](/art-design/mycelium)** 
-
-All new garments archived here are designed and some batiked by me, while all used garments are found and sewn/dyed by me.
-

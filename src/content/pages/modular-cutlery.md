@@ -62,7 +62,7 @@ The modular cutlery design piece was put on display at the Boston Design Center 
 
 A designer lamp was photographed in the Boston Design Center to make the 3D rendering. The resulting model was sent through programs such as Microsoft 3D Repair to ensure the mesh was complete enough to be altered; developing techniques to seal and manipulate meshes of complex 3D models with thousands of vertices.
 
-<div class="grid grid-cols-2 md:grid-cols-3 gap-4 my-12">
+<div class="grid grid-cols-4 md:grid-cols-8 gap-4 my-12">
   <img src="/images/cd065-87d8fb_6b8672babc5644c1847be61b1a79f30fmv2_d_2592_3888_s_4_2.jpg" class="w-full grayscale hover:grayscale-0 transition-all duration-500" />
   <img src="/images/b9da4-87d8fb_e3441abf2dc747739e747534eba2c5e7mv2_d_2592_3888_s_4_2.jpg" class="w-full grayscale hover:grayscale-0 transition-all duration-500" />
   <img src="/images/6e019-87d8fb_4a25db85bdce4dd58050dd9965de7fe0mv2_d_2592_3888_s_4_2.jpg" class="w-full grayscale hover:grayscale-0 transition-all duration-500" />
@@ -101,7 +101,7 @@ I began with sketches of ideas for a complete set of useful forms solely by reco
 
 These sketches were transformed into 3D sketches in Solidworks and further model manipulation was done within and between Maya, Adobe Illustrator, Netfabb, and Blender.
 
-<div class="grid grid-cols-2 gap-8 my-12">
+<div class="grid grid-cols-4 gap-8 my-12">
   <img src="/images/6130e-87d8fb_253413b2ac8b477d959f214c152c7edamv2.png" />
   <img src="/images/58292-87d8fb_0cfb485cf9804e26b238d6191878fe80mv2.png" />
   <img src="/images/39e4f-87d8fb_c56e77a36e5f403994503d3185056f10mv2.png" />
@@ -125,6 +125,4 @@ I delved deep into complex CAD model geometries and using multiple software in c
   <img src="/images/b64ae-87d8fb_2859a4089e8d4029b2fe0b0407aaa7b2mv2_d_3888_2592_s_4_2.jpg" />
 </div>
 
-[DOWNLOAD FULL PROJECT DOCUMENTATION](/docs/cc583-87d8fb_7877569a2679496d9681c19b790128a9.pdf)
-
-![Final Prototype](/images/aaf86-87d8fb_c77c9a3391144f59a150fe2295d2dd9amv2-edited-1-1198595329-e1727312573334.png)
+[DOWNLOAD FULL PROJECT DOCUMENTATION](/docs/omnicut.pdf)

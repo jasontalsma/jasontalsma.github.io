@@ -29,6 +29,8 @@ images:
 
 _The goal of this project was to leverage AI to automate the reflection process for students with its rugged design allowing for use anywhere._  
   
+  As seen on the local news: <a href="https://www.knoe.com/2026/05/08/louisiana-tech-ruston-high-school-testing-new-technology-classroom/
+  " target="_blank" class="underline hover:text-white/80 transition-colors">KNOE news</a>
 
 As one of only two engineers on this project, I was involved in every part of every phase - from pre-concept development to the first shipments. The product is a battery powered integrated speaker, friction hinge mounted touch display, microphone array, and camera with an IR tracking remote packaged in a ruggedized form custom designed for the classroom.
 

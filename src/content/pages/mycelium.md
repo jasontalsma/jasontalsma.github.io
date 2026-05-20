@@ -74,9 +74,7 @@ I chose a few different approaches in order to maximize testing. Most of the sub
   </div>
 </div>
 
-<div class="grid grid-cols-2 md:grid-cols-4 gap-4 my-12">
-  <img src="/images/pxl_20241016_175120351.jpg" alt="Test 1" />
-  <img src="/images/pxl_20241031_183009613.jpg" alt="Test 2" />
+<div class="grid grid-cols-2 gap-10 my-12">
   <img src="/images/pxl_20241022_232001766.jpg" alt="Test 3" />
   <img src="/images/pxl_20250206_201445585.jpg" alt="Test 4" />
 </div>
@@ -136,16 +134,17 @@ While my focus is on textile waste re-use, all materials showed promise for furt
   <img src="/images/img_9806.jpg" alt="Focus 2" />
   <img src="/images/img_9733.jpg" alt="Focus 3" />
   <img src="/images/img_9795.jpg" alt="Focus 4" />
-</div>
-
-<div class="grid grid-cols-2 md:grid-cols-4 gap-4 my-12">
-  <img src="/images/pxl_20241119_180320043.jpg" alt="Study 1" />
-  <img src="/images/pxl_20241106_215405020.jpg" alt="Study 2" />
+  <div class="aspect-square w-full overflow-hidden bg-[#111]">
+    <img 
+      src="/images/pxl_20241119_180320043.jpg" alt="stufy 1" class="w-full h-full object-cover" />
+  </div>
+  <img src="/images/pxl_20241031_182909841.jpg" alt="Study 2" />
   <img src="/images/pxl_20241119_180246092.jpg" alt="Study 3" />
   <img src="/images/img_9621.jpg" alt="Study 4" />
 </div>
 
-![Detailed Result](/images/pxl_20241031_182909841.jpg)
+
+![Detailed Result](/images/pxl_20241106_215405020.jpg)
 
 ## Other Results and Discoveries
 
@@ -154,9 +153,18 @@ While my focus is on textile waste re-use, all materials showed promise for furt
 Only one version of post-processing has been tested up until this point: impregnating a dried mycelial form with soy wax to improve durability. The wax had no problem coating the form and sinking into the material a bit. Beeswax is a common option for impregnating mycelium "leather".
 
 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 my-12">
-  <img src="/images/pxl_20250121_221147714.mp_.jpg" alt="Wax Test 1" />
-  <img src="/images/pxl_20250121_221217583.jpg" alt="Wax Test 2" />
-  <img src="/images/pxl_20250121_221425113.jpg" alt="Wax Test 3" />
+  <div class="aspect-square w-full overflow-hidden bg-[#111]">
+  <img 
+    src="/images/pxl_20250121_221147714.mp_.jpg" alt="test1" class="w-full h-full object-cover" />
+  </div>
+  <div class="aspect-square w-full overflow-hidden bg-[#111]">
+    <img 
+      src="/images/pxl_20250121_221217583.jpg" alt="test2" class="w-full h-full object-cover" />
+  </div>
+  <div class="aspect-square w-full overflow-hidden bg-[#111]">
+    <img 
+      src="/images/pxl_20250121_221425113.jpg" alt="test3" class="w-full h-full object-cover" />
+  </div>
 </div>
 
 A surprise discovery was the mycelium sheets created in between the ceramic weights I was using for one of the molds. The ~1mm thick sheets were easily removed and handled. The sheets are semi-transparent and were able to dry while maintaining their shape; they were very brittle when dried.
@@ -168,8 +176,14 @@ A surprise discovery was the mycelium sheets created in between the ceramic weig
 </div>
 
 Oyster mushrooms attempting to fruit but starved for oxygen will produce mushroom forms shown below. These forms are mildly compressible and can be grown and dried without any human intervention past the "planting".
+<br/>
 
-![Starved Fruit](/images/pxl_20250206_201630970.jpg)
+<div class="aspect-square w-full overflow-hidden bg-[#111]">
+  <img 
+    src="/images/pxl_20250206_201630970.jpg" alt="peanut" class="w-full h-full object-cover" />
+</div>
+
+<br/>
 
 The coaster below was simply placed in the bottom of the plastic mold beneath substrate. The thin mycelium encasing that forms on the external surfaces within the mold was still able to showcase any color behind it. The logo is visible even after the drying process.
 

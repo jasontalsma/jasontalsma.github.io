@@ -8,7 +8,7 @@ layoutType: "organic"
 _I deliver experience-focused design from concept to manufacturing, combining creative problem-solving, rapid prototyping, and cross-cultural collaboration across diverse industries._
 
 <div class="mb-20">
-  <img src="/images/swivl_logo_wordmark_black.png" alt="Swivl Logo" class="w-48 mb-8" />
+  <img src="/images/swivl_logo_wordmark_white.png" alt="Swivl Logo" class="not-prose w-48 mb-8 block object-contain" />
   
   <h3 class="text-xl font-bold uppercase tracking-tight">Mechanical Engineer</h3>
   <p class="text-[10px] tracking-[0.3em] uppercase text-[#F9F9F9]/40 mb-1">Menlo Park, California, USA</p>
@@ -27,16 +27,24 @@ _I deliver experience-focused design from concept to manufacturing, combining cr
   </ul>
 
   <div class="grid grid-cols-2 md:grid-cols-3 gap-4 my-12">
-    <img src="/images/pxl_20220215_023341802.mp_.jpg" alt="Swivl Process" />
-    <img src="/images/img_2485-3610848154-e1726701172599.jpg" alt="Swivl Detail" />
-    <img src="/images/pxl_20220223_193636911.mp_.jpg" alt="Swivl Product" />
-    <img src="/images/pxl_20231101_214120850.jpg" alt="Swivl Testing" />
-    <img src="/images/pxl_20231110_004637394.jpg" alt="Swivl Packaging" />
+    <a href="/engineering/remote" class="group overflow-hidden block">
+      <img src="/images/remote-hand2.png" alt="Swivl Remote" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-102" />
+    </a>
+    <a href="/engineering/ai-hardware" class="group overflow-hidden block">
+      <img src="/images/mirror-high-five.gif" alt="Swivl Mirror" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-102" />
+    </a>
+    <a href="/engineering/teacher-robot" class="group overflow-hidden block">
+      <img src="/images/swivl-robot-for-website2.png" alt="Swivl Robot" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-102" />
+    </a>
   </div>
 </div>
 
+<br />
+<br />
+<br />
+
 <div class="mb-20">
-  <img src="/images/7de28-87d8fb_44cf0a34aba54a51a4354ebc0ebe5e74mv2.png" alt="KEA Logo" class="w-48 mb-8" />
+  <img src="/images/7de28-87d8fb_44cf0a34aba54a51a4354ebc0ebe5e74mv2.png" alt="KEA Logo" class="not-prose w-48 mb-8 block object-contain" />
 
   <h3 class="text-xl font-bold uppercase tracking-tight">Associate Engineer</h3>
   <p class="text-[10px] tracking-[0.3em] uppercase text-[#F9F9F9]/40 mb-1">Marlborough, Massachusetts, USA</p>
@@ -52,15 +60,18 @@ _I deliver experience-focused design from concept to manufacturing, combining cr
 
   <div class="grid grid-cols-2 md:grid-cols-3 gap-4 my-12">
     <img src="/images/908f7-87d8fb_2cbf918813524245bdbff39342d06ab4mv2_d_2803_3410_s_4_2.jpg" alt="KEA Project 1" />
-    <img src="/images/03370-87d8fb_3cfe2c05bb29435d87647c2ac53973bemv2_d_4456_2800_s_4_2.jpg" alt="KEA Project 2" />
     <img src="/images/d082e-87d8fb_bd9f5b40b0f44bdb9a86c85932f306a2mv2_d_4080_2753_s_4_2.jpg" alt="KEA Project 3" />
-    <img src="/images/293e6-87d8fb_a12ab222a39441f6986f896d65c59cb5mv2.png" alt="KEA Project 4" />
-    <img src="/images/0708f-87d8fb_126916d889f742d48967960dbf09ea18mv2_d_4730_2764_s_4_2.jpg" alt="KEA Project 5" />
+    <img src="/images/e2026-87d8fb_9f368db73bff40328d0fbccc53093e1dmv2.gif" alt="KEA Project 5" />
+
   </div>
 </div>
 
+<br />
+<br />
+<br />
+
 <div class="mb-20">
-  <img src="/images/334e0-87d8fb_b7b2205e6278482a99febebf59714c32mv2.png" alt="Sentieo Logo" class="w-48 mb-8" />
+  <img src="/images/334e0-87d8fb_b7b2205e6278482a99febebf59714c32mv2.png" alt="Sentieo Logo" class="not-prose w-48 mb-8 block object-contain" />
 
   <h3 class="text-xl font-bold uppercase tracking-tight">Sales & Marketing Co-op</h3>
   <p class="text-[10px] tracking-[0.3em] uppercase text-[#F9F9F9]/40 mb-1">San Francisco, California, USA</p>
@@ -76,8 +87,12 @@ _I deliver experience-focused design from concept to manufacturing, combining cr
   </ul>
 </div>
 
+<br />
+<br />
+<br />
+
 <div class="mb-20">
-  <img src="/images/5b6ea-87d8fb_d9aeb86264c4487fa1c2dfb09332e618mv2.png" alt="Eastek Logo" class="w-48 mb-8" />
+  <img src="/images/5b6ea-87d8fb_d9aeb86264c4487fa1c2dfb09332e618mv2.png" alt="Eastek Logo" class="not-prose w-48 mb-8 block object-contain" />
 
   <h3 class="text-xl font-bold uppercase tracking-tight">Engineering Co-op</h3>
   <p class="text-[10px] tracking-[0.3em] uppercase text-[#F9F9F9]/40 mb-1">Dongguan, China</p>
@@ -94,12 +109,16 @@ _I deliver experience-focused design from concept to manufacturing, combining cr
   </ul>
 
   <div class="mt-8">
-    <a href="/docs/b737d-87d8fb_ceef159804694761bbf2c23766308ec6.pdf" class="inline-block px-6 py-3 border border-white/20 hover:bg-white/5 transition-colors uppercase text-[10px] tracking-widest font-bold">DOWNLOAD INTERDEPARTMENTAL PAY FOR PERFORMANCE PROPOSAL</a>
+    <a href="/docs/eastek-pfp.pdf" class="inline-block px-6 py-3 border border-white/20 hover:bg-white/5 transition-colors uppercase text-[10px] tracking-widest font-bold">DOWNLOAD INTERDEPARTMENTAL PAY FOR PERFORMANCE PROPOSAL</a>
   </div>
 </div>
 
+<br />
+<br />
+<br />
+
 <div class="mb-20">
-  <div class="text-5xl font-black tracking-tighter uppercase italic text-white mb-8 select-none">Atal</div>
+  <div class="text-5xl font-black tracking-tighter uppercase text-white mb-8 select-none">Atal</div>
 
   <h3 class="text-xl font-bold uppercase tracking-tight">Social Researcher</h3>
   <p class="text-[10px] tracking-[0.3em] uppercase text-[#F9F9F9]/40 mb-1">Ogoja LGA, Cross River State, Nigeria</p>
@@ -114,10 +133,8 @@ _I deliver experience-focused design from concept to manufacturing, combining cr
   </ul>
 
   <div class="grid grid-cols-2 md:grid-cols-3 gap-4 my-12">
-    <img src="/images/4cdd8-87d8fb_bafe9d30dc8045f982f2d79f36415a4amv2_d_3200_2400_s_4_2.jpg" alt="Atal 1" />
     <img src="/images/d8ecb-87d8fb_e3f3b8dd4e45496697932aae74451e45mv2_d_3200_2400_s_4_2.jpg" alt="Atal 2" />
     <img src="/images/0dcf5-87d8fb_65f091cd73254be993707077f2e35b95mv2_d_2400_3200_s_4_2.jpg" alt="Atal 3" />
     <img src="/images/8f5cd-87d8fb_a11bb2c9f9e047e88bf25111750fb398mv2_d_2400_3200_s_4_2.jpg" alt="Atal 4" />
-    <img src="/images/178f4-87d8fb_db2ca8ce654a44d7ae3f833a5a990e16mv2_d_2400_3200_s_4_2.jpg" alt="Atal 5" />
   </div>
 </div>

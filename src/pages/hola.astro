@@ -1,19 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
-import fs from 'node:fs';
-import path from 'node:path';
 
 const projects = (await getCollection('pages')).filter(p => p.id !== 'professional-experience');
 
-// Explicit list of 32 images provided by the user
 const userImages = [
   "img_04722.jpg",
   "pxl_20210513_225632499.mp_.jpg",
-  "pxl_20210523_120556310.mp_.jpg",
-  "pxl_20210605_000514562.mp_.jpg",
   "pxl_20210612_211318222.jpg",
-  "pxl_20210720_214325219.mp_.jpg",
   "pxl_20210720_215509251.mp_.jpg",
   "pxl_20210720_224347093.mp_.jpg",
   "pxl_20210720_225101143.mp_.jpg",
@@ -22,12 +16,15 @@ const userImages = [
   "pxl_20210809_181352603.mp_.jpg",
   "pxl_20210831_182432325.mp_.jpg",
   "pxl_20210903_144140673.mp_.jpg",
+  "pxl_20210720_214325219.mp_.jpg",
   "pxl_20211106_215606649.mp_.jpg",
   "pxl_20211121_210520665.mp_.jpg",
   "pxl_20220122_214114360.mp_.jpg",
   "pxl_20220306_194625724.mp_.jpg",
   "pxl_20220306_212137319.mp_.jpg",
+  "pxl_20210605_000514562.mp_.jpg",
   "pxl_20220420_234500831.jpg",
+  "pxl_20210523_120556310.mp_.jpg",
   "pxl_20220811_012918349.mp_.jpg",
   "pxl_20221008_160748921.mp_.jpg",
   "pxl_20221008_164719213.mp_.jpg",
@@ -43,23 +40,17 @@ const userImages = [
   "pxl_20240925_000603342.mp_.jpg"
 ];
 
-// Map images to projects if possible
 const displayItems = userImages.map((filename) => {
   const project = projects.find(p => p.data.coverImage === filename);
-  return {
-    filename,
-    project
-  };
+  return { filename, project };
 });
 ---
 
 <Layout title="Hola | Jason Talsma">
   <div class="relative w-full mt-16 bg-black cursor-none min-h-screen overflow-y-auto">
-    <!-- Content wrapper that defines the full scrollable height -->
     <div id="hola-content-wrapper" class="relative w-full">
       
-      <!-- Base Photography Layout -->
-      <div class="grid grid-cols-3 gap-0 pointer-events-none opacity-80 z-10">
+      <div class="grid grid-cols-3 gap-0 pointer-events-none opacity-100 z-10">
         {displayItems.map((item) => (
           <div class="relative aspect-square overflow-hidden">
             <img 
@@ -71,18 +62,10 @@ const displayItems = userImages.map((filename) => {
         ))}
       </div>
 
-      <!-- The project titles layer (hidden by default) -->
       <div id="project-titles" class="absolute inset-0 z-20 pointer-events-none overflow-hidden mix-blend-difference font-black" style="opacity: 0;">
         {(() => {
-          const importantOrder = [
-            'mycelium',
-            'wwjdedits',
-            'teacher-robot',
-            'remote',
-            'automotive-uim'
-          ];
+          const importantOrder = ['mycelium', 'wwjdedits', 'teacher-robot', 'remote', 'wwjd'];
           
-          // Sort projects to put important ones first
           const sortedProjects = [...projects].sort((a, b) => {
             const indexA = importantOrder.indexOf(a.id);
             const indexB = importantOrder.indexOf(b.id);
@@ -92,31 +75,18 @@ const displayItems = userImages.map((filename) => {
             return 0;
           });
 
-          // Create two sets of titles for top and bottom repetition
-          const topSet = sortedProjects;
-          const bottomSet = sortedProjects;
-          const allDisplayProjects = [...topSet, ...bottomSet];
-
-          return allDisplayProjects.map((project, index) => {
+          return [...sortedProjects, ...sortedProjects].map((project, index) => {
             const isBottomSet = index >= projects.length;
             const projectIndex = index % projects.length;
-            
-            // Random but deterministic seed
             const titleSeed = project.id + (isBottomSet ? 'bottom' : 'top');
             const seed = titleSeed.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
             
-            // Denser spread: use more of the width
-            const x = (seed * 19) % 75 + 5; // 5% to 80%
-            
-            // Calculate total expected height based on the grid of 33 images (11 rows)
-            const verticalStep = 180;
-            
-            // Initial offset + step-based vertical placement
+            const x = (seed * 19) % 60 + 5;
+            const verticalStep = 200;
             const yOffset = isBottomSet ? (projects.length * verticalStep * 0.8) : 50;
-            const y = (seed * 23) % 150 + (projectIndex * verticalStep) + yOffset; 
-            
-            // Link logic: wwjdedits is top level, others are in engineering
-            const href = project.id === 'wwjdedits' ? '/wwjdedits' : `/engineering/${project.id}`;
+            const y = (seed * 23) % 200 + (projectIndex * verticalStep) + yOffset; 
+            const artDesignProjects = ['mycelium', 'triangle-toys', 'igloo', 'modular-cutlery', 'experience-design', 'table-art'];
+            const href = project.id === 'wwjdedits' ? '/wwjdedits' : project.id === 'wwjd' ? '/wwjd' : artDesignProjects.includes(project.id) ? `/art-design/${project.id}` : `/engineering/${project.id}`;
             
             return (
               <a 
@@ -131,34 +101,34 @@ const displayItems = userImages.map((filename) => {
         })()}
       </div>
 
-      <!-- The Difference Mask / Flashlight (Invisible, used for layout/logic if needed, or but mainly the mask on titles handles the effect) -->
-      <div id="flashlight" class="absolute z-30 pointer-events-none rounded-full" style="width: 25vw; height: 25vw; transform: translate(-50%, -50%); display: none;">
+      <div 
+        id="flashlight" 
+        class="absolute z-30 pointer-events-none rounded-full mix-blend-difference backface-hidden" 
+        style="width: 25vw; height: 25vw; transform: translate(-50%, -50%); display: none; background: rgba(255,255,255,1);"
+        >
       </div>
     </div>
   </div>
 
   <script>
+  // This function boots the layout listeners safely on every page view
+  function initFlashlight() {
     const scrollContainer = document.querySelector('.overflow-y-auto') as HTMLElement;
     const contentWrapper = document.getElementById('hola-content-wrapper');
     const flashlight = document.getElementById('flashlight');
     const titlesLayer = document.getElementById('project-titles');
 
     if (scrollContainer && contentWrapper && flashlight && titlesLayer) {
-      scrollContainer.addEventListener('mousemove', (e: any) => {
+      scrollContainer.addEventListener('mousemove', (e: MouseEvent) => {
         const rect = contentWrapper.getBoundingClientRect();
-        // Mouse position relative to the CONTENT viewport
         const x = e.clientX - rect.left;
         const y = e.clientY - rect.top;
 
-        // Position the circle in the content wrapper coordinate space
         flashlight.style.display = 'block';
         flashlight.style.left = `${x}px`;
         flashlight.style.top = `${y}px`;
 
-        // Apply feathered mask to titles layer
-        // We use 12.5vw radius to match 25vw diameter
         const mask = `radial-gradient(circle 12.5vw at ${x}px ${y}px, black 0%, transparent 100%)`;
-        
         titlesLayer.style.opacity = '1';
         // @ts-ignore
         titlesLayer.style.webkitMaskImage = mask;
@@ -171,6 +141,10 @@ const displayItems = userImages.map((filename) => {
         titlesLayer.style.opacity = '0';
       });
     }
+  }
+
+  // Intercept Astro view transitions / routing updates
+  document.addEventListener('astro:page-load', initFlashlight);
   </script>
 </Layout>
 

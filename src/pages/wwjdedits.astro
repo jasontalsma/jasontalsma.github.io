@@ -26,7 +26,7 @@ const layoutType = entry.data.layoutType || 'technical';
   <!-- Hero Section -->
   <section class="h-[75vh] relative w-full overflow-hidden">
     <div 
-      class="absolute inset-0 bg-cover bg-center grayscale brightness-75 scale-105"
+      class="absolute inset-0 bg-cover bg-center scale-105 animate-fade-to-color"
       style={`background-image: url('/images/${entry.data.coverImage}')`}
     ></div>
     
@@ -140,6 +140,18 @@ const layoutType = entry.data.layoutType || 'technical';
   .prose figcaption {
     @apply mt-6 text-sm text-[#F9F9F9]/40 font-light tracking-wide max-w-2xl;
   }
+  @keyframes fadeToColor {
+  from {
+    filter: grayscale(100%) brightness(0.70);
+  }
+  to {
+    filter: grayscale(0%) brightness(100%);
+  }
+  }
+  .animate-fade-to-color {
+    animation: fadeToColor 6s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+  }
+
   /* Remove the italicized paragraph from the main content since it's in the hero */
   /* Except on pages where we explicitly want to show it (like clothing) */
   body:not(.clothing-page) .prose p:first-of-type em, 

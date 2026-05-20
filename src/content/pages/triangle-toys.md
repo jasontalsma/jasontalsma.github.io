@@ -10,13 +10,19 @@ _The goal of this project was to design a simple toy for a waiting room. This le
 The triangular shape was decided upon for its strength, comfort in the hand, and proficiently multiplicative angles. These design decisions accomplish durability, comfort, ease of use, and complexity of play. Many triangle shapes were attempted but the final form has the best tactile aspects as well as the ability to gyrate about its center of mass.
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-12">
-  <img src="/images/a8fd8-87d8fb_3c14762fea514dacbf40997f686c2f80mv2.jpg" alt="Triangle Toy Main" />
-  <img src="/images/2a2d6-87d8fb_39b7cd9d3b134e36aad00b104f088028mv2.jpg" alt="Triangle Toy Action" />
+  <div class="aspect-[16:9] w-full overflow-hidden bg-[#111]">
+  <img 
+    src="/images/a8fd8-87d8fb_3c14762fea514dacbf40997f686c2f80mv2.jpg" alt="stufy 1" class="w-full h-full object-cover" />
+  </div>
+  <div class="aspect-[16:9] w-full overflow-hidden bg-[#111]">
+  <img 
+    src="/images/2a2d6-87d8fb_39b7cd9d3b134e36aad00b104f088028mv2.jpg" alt="stufy 1" class="w-full h-full object-cover" />
+  </div>
 </div>
 
 Creation of the triangles consisted of designing in Solidworks, 3D printing the toy, sculpting it to mimic the desired theoretical feel, and then finally painting the notches and CVS logo by hand.
 
-<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 my-12">
+<div class="grid grid-cols-4 md:grid-cols-8 gap-4 my-12">
   <img src="/images/b1275-87d8fb_0bc1ace88ac94679a6ff0f2ae85541b6mv2_d_2448_3264_s_4_2.jpg" alt="Creation Process 1" />
   <img src="/images/ed77e-87d8fb_5ba7358058094c1e9bacce400cdb0e32mv2_d_2448_3264_s_4_2.jpg" alt="Creation Process 2" />
   <img src="/images/58413-87d8fb_a4ab48805a3e445c8cb4d4ee92b8173fmv2_d_2448_3264_s_4_2.jpg" alt="Creation Process 3" />
@@ -49,21 +55,33 @@ Creation of the triangles consisted of designing in Solidworks, 3D printing the 
   <img src="/images/ebb13-87d8fb_5cfa4a1abb004801b1a0d0d0c26549acmv2_d_2448_3264_s_4_2.jpg" alt="Creation Process 30" />
   <img src="/images/0a96a-87d8fb_760d85241c41407eb1ae67fcdc70115emv2_d_2448_3264_s_4_2.jpg" alt="Creation Process 31" />
   <img src="/images/265b1-87d8fb_43ca35e9bbaf419786c04bcc4264c03dmv2_d_2448_3264_s_4_2.jpg" alt="Creation Process 32" />
-  <img src="/images/7e272-87d8fb_e2db5ca533194261b63a2dc9346bf14bmv2_d_2448_3264_s_4_2.jpg" alt="Creation Process 33" />
-  <img src="/images/a2186-87d8fb_3d0b16c3e2c64f2f945cf9469c7099a6mv2_d_2448_3264_s_4_2.jpg" alt="Creation Process 34" />
-  <img src="/images/1d696-87d8fb_1e1d926e5be040699e17f3ef56f6f5bfmv2_d_2448_3264_s_4_2.jpg" alt="Creation Process 35" />
 </div>
 
 A stone was photographed to make the 3D rendering. I tried two free mobile apps to stitch the 3d model and ended up using Autodesks offering that has since been retired. Different programs were used to find the best of all the resulting 3D models after fixing the solid model; this one can be seen below.
 
-![3D Rendering](/images/d212f-87d8fb_095cfa697e894154ab64a82725bda025mv2.png)
+<div class="aspect-[3/4] w-62 mx-auto overflow-hidden bg-[#111]">
+  <img 
+    src="/images/d212f-87d8fb_095cfa697e894154ab64a82725bda025mv2.png" alt="render" class="w-full h-full object-cover" 
+  />
+</div>
+
+</br>
 
 The scanned form was used as inspiration for the creation of the prototype toy models and throughout till the final printed functional prototype. The form inspired the solid feel in the hand and smooth finish of the final triangular connection toys.
 
 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 my-12">
-  <img src="/images/a362c-87d8fb_e06702d00f6e4d59b89cc4bc0429e4fcmv2.jpg" alt="Prototype 1" />
-  <img src="/images/202eb-87d8fb_28ee1285abed4157b4a73c57fe6d13a2mv2.jpg" alt="Prototype 2" />
-  <img src="/images/4c471-87d8fb_d182fd4faf8e460da81ba961fce24c9emv2.jpg" alt="Prototype 3" />
+  <div class="aspect-[16:9] w-full overflow-hidden bg-[#111]">
+  <img 
+    src="/images/a362c-87d8fb_e06702d00f6e4d59b89cc4bc0429e4fcmv2.jpg" class="w-full h-full object-cover" />
+  </div>
+  <div class="aspect-[16:9] w-full overflow-hidden bg-[#111]">
+  <img 
+    src="/images/202eb-87d8fb_28ee1285abed4157b4a73c57fe6d13a2mv2.jpg" class="w-full h-full object-cover" />
+  </div>
+  <div class="aspect-[16:9] w-full overflow-hidden bg-[#111]">
+  <img 
+    src="/images/4c471-87d8fb_d182fd4faf8e460da81ba961fce24c9emv2.jpg" class="w-full h-full object-cover" />
+  </div>
 </div>
 
 The triangle has proven itself to be one of the most simple and effective mechanical solutions. In nature, it provides the strongest structural formation and is found in chemical structures, atomic formations, and spider webs.
@@ -82,4 +100,4 @@ The final design required additional work after leaving the ceramic 3D printing 
 
 I took the opportunity to expand my knowledge of the basic tools of Solidworks, such as fillets, drafts, and the use of planes but more importantly I was able to explore the connection between the physical and digital models through the heavy use of PLA and ceramic 3D printers. Moreover, I learned how to easily scan and input real physical forms into the digital world and edit it back out again.
 
-[DOWNLOAD PROJECT PRESENTATION](/docs/102fb-87d8fb_61a35948456745e38a9a6496c5d17794.pdf)
+[DOWNLOAD PROJECT PRESENTATION](/docs/triangles.pdf)

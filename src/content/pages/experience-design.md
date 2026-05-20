@@ -80,7 +80,9 @@ The next steps of this design would be to gamify and enhance the experience of t
 
 Laser cutting was used to create an attachable mouse-pad that also acts as a protective case during transport. This design organizes an activity I experience daily.
 
-![Laser Mouse Pad Result](/images/ea36c-87d8fb_c599c238424246c1aae6b2277608d119mv2_d_5312_2988_s_4_2.jpg)
+![CLOSED](/images/ea36c-87d8fb_c599c238424246c1aae6b2277608d119mv2_d_5312_2988_s_4_2.jpg)
+
+![OPEN](/images/f828b-87d8fb_97bda12d71c8452a8cb23c61f023288fmv2_d_5064_2565_s_4_2.jpg)
 
 The laser cut design I decided to go with was an attempt to solve the clutter brought about by not using a mouse on a table. I came to this idea from my personal experiences using CAD and trying to juggle a laptop, calculator, mouse, and a notebook as a makeshift surface. Having to carry the extra flat surface around with my laptop also clutters the experience of heavy mouse use with a laptop. I am often doing work on my own or a friend’s couch and further narrowed my design scope with that in mind.
 
@@ -88,9 +90,7 @@ The laser cut design I decided to go with was an attempt to solve the clutter br
 
 My goal with this project was to create a laser cut mouse pad prototype that could attach to a laptop. The design is intended for those who are heavy users of a mouse pointer device with a portable computer. I intended to create a deployable system that articulates to offer a flexible flat surface that is extended from the main computer body when in use.
 
-<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 my-12">
-  <img src="/images/f828b-87d8fb_97bda12d71c8452a8cb23c61f023288fmv2_d_5064_2565_s_4_2.jpg" alt="Laser Pad 1" />
-  <img src="/images/df228-87d8fb_b0b269d9e7594ecf8dbc4aeeb72e1d60mv2_d_5228_2237_s_2.jpg" alt="Laser Pad 2" />
+<div class="grid grid-cols-2 md:grid-cols-3 gap-4 my-12">
   <img src="/images/1a9a1-87d8fb_bb2a08c9f41c47b49a94e5da5b694f66mv2_d_5312_2988_s_4_2.jpg" alt="Laser Pad 3" />
   <img src="/images/7b227-87d8fb_e4ee13f2565d43f6ba1fbd494df4de31mv2_d_5312_2988_s_4_2.jpg" alt="Laser Pad 4" />
   <img src="/images/eff53-87d8fb_1c2f593386ae4f6daf5614c6ca80652bmv2_d_5044_2813_s_4_2.jpg" alt="Laser Pad 5" />
@@ -102,7 +102,14 @@ My goal with this project was to create a laser cut mouse pad prototype that cou
 
 Fusion deposition modelling 3D printing techniques were leveraged to create a combination of 3 tools, a money clip, Bic lighter holder, and a bottle opener in one. This design increases the functionality of each tool and overall experience due to their combination.
 
-![AM Combine Tools](/images/2b47c-87d8fb_14e668aefe594fbcb311ebfea83668abmv2_d_4078_2719_s_4_2.jpg)
+<div class="aspect-[4/1] w-full overflow-hidden bg-[#111]">
+  <img 
+    src="/images/2b47c-87d8fb_14e668aefe594fbcb311ebfea83668abmv2_d_4078_2719_s_4_2.jpg" alt="AM Combine Tools" 
+    class="w-full h-full object-cover" 
+  />
+</div>
+
+<br/>
 
 This 3D modeling and 3D printing project inspired a more curvaceous design to solve the given prompt. Said prompt for this project was to combine two tools to increase their usefulness. I attempted to improve the experience of using the tools required to spend money. The tools are a money clip, a lighter, and a bottle opener. The money clip organizes one’s paper and plastic currencies so that he/she can spend easily and efficiently. The other two tools come into play after the money is so easily spent. The bottle opener opens drinkable vices and the lighter ignites inhalable ones; both are often used as painkillers for all the money that was just spent. This design increases their usefulness by improving their proximity to each other, and therefore, their accessibility.
 
@@ -113,12 +120,29 @@ This 3D modeling and 3D printing project inspired a more curvaceous design to so
 I created a works-like and looks-like prototype, or a vertical slice, of the experience. The model was a rather accurate visual representation of the theoretical final product and could perform all its functions (money and lighter holding as well as bottle opening) but not to the degree or level of fidelity the final product would have to achieve. I utilized SolidWorks for digital model creation and a MakerBot FDM 3D printer for the fabrication of the digital file.
 
 <div class="grid grid-cols-2 md:grid-cols-3 gap-4 my-12">
-  <img src="/images/e4560-87d8fb_cfb2e63f577546d39a82d9fcc9df4046mv2_d_4043_2695_s_4_2.jpg" alt="AM Build 1" />
-  <img src="/images/0c9ad-87d8fb_226d41942bff46e5825da3fc21236201mv2_d_4036_2690_s_4_2.jpg" alt="AM Build 2" />
-  <img src="/images/a85b0-87d8fb_6e5736477ce54d728140edbb96c551ebmv2_d_3375_2028_s_2.jpg" alt="AM Build 3" />
-  <img src="/images/4a97d-87d8fb_c3fe476207d243bcb036c63a05aa5432mv2_d_5312_2988_s_4_2.jpg" alt="AM Build 4" />
-  <img src="/images/87375-87d8fb_3336f44f02af48209280751a49a4eeb7mv2_d_2856_1904_s_2.jpg" alt="AM Build 5" />
-  <img src="/images/e9e2c-87d8fb_08ebefc7dacc4f2cbbce142ec0acdb2fmv2_d_5312_2988_s_4_2.jpg" alt="AM Build 6" />
+  <div class="aspect-video w-full overflow-hidden bg-[#111]">
+    <img src="/images/e4560-87d8fb_cfb2e63f577546d39a82d9fcc9df4046mv2_d_4043_2695_s_4_2.jpg" alt="AM Build 1" class="w-full h-full object-cover" />
+  </div>
+
+  <div class="aspect-video w-full overflow-hidden bg-[#111]">
+    <img src="/images/0c9ad-87d8fb_226d41942bff46e5825da3fc21236201mv2_d_4036_2690_s_4_2.jpg" alt="AM Build 2" class="w-full h-full object-cover" />
+  </div>
+
+  <div class="aspect-video w-full overflow-hidden bg-[#111]">
+    <img src="/images/a85b0-87d8fb_6e5736477ce54d728140edbb96c551ebmv2_d_3375_2028_s_2.jpg" alt="AM Build 3" class="w-full h-full object-cover" />
+  </div>
+
+  <div class="aspect-video w-full overflow-hidden bg-[#111]">
+    <img src="/images/4a97d-87d8fb_c3fe476207d243bcb036c63a05aa5432mv2_d_5312_2988_s_4_2.jpg" alt="AM Build 4" class="w-full h-full object-cover" />
+  </div>
+
+  <div class="aspect-video w-full overflow-hidden bg-[#111]">
+    <img src="/images/87375-87d8fb_3336f44f02af48209280751a49a4eeb7mv2_d_2856_1904_s_2.jpg" alt="AM Build 5" class="w-full h-full object-cover" />
+  </div>
+
+  <div class="aspect-video w-full overflow-hidden bg-[#111]">
+    <img src="/images/e9e2c-87d8fb_08ebefc7dacc4f2cbbce142ec0acdb2fmv2_d_5312_2988_s_4_2.jpg" alt="AM Build 6" class="w-full h-full object-cover" />
+  </div>
 </div>
 
 ***
@@ -148,8 +172,12 @@ For this project, I edited a space to reduce clutter and improve usage. I decide
 I created a looks-like prototype where the user would be able to see what the new room experience would be like through augmented reality devices.
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-12">
-  <img src="/images/artg_ar_before-ezgif.com-video-to-gif-converter.gif" alt="AR Before" />
-  <img src="/images/artg_ar_after-ezgif.com-video-to-gif-converter-1.gif" alt="AR After" />
+  <div class="aspect-square w-full overflow-hidden bg-[#111]">
+    <img src="/images/artg_ar_before-ezgif.com-video-to-gif-converter.gif" alt="AR Before" class="w-full h-full object-cover" />
+  </div>
+  <div class="aspect-square w-full overflow-hidden bg-[#111]">
+    <img src="/images/ARTG_AR_after.gif" alt="AR After" class="w-full h-full object-cover" />
+  </div>
 </div>
 
 ***
@@ -166,8 +194,7 @@ I created a vertical slice prototype of the experience.
 
 <div class="grid grid-cols-2 lg:grid-cols-3 gap-4 my-12">
   <img src="/images/cbd21-87d8fb_af6f6c06cde845acaae092df7268b798mv2.png" alt="VR View 1" />
-  <img src="/images/9a72a-87d8fb_a05f71609e7247a0bda04a51266772b3mv2.png" alt="VR View 2" />
-  <img src="/images/f2662-87d8fb_279fdd5ed1e24394b76af996a3725989mv2.png" alt="VR View 3" />
   <img src="/images/0db48-87d8fb_3224b2a5b8fc44779068a50325339073mv2.png" alt="VR View 4" />
-  <img src="/images/ac882-87d8fb_e3dcbd8d468248c09191802a87541f29mv2.png" alt="VR View 5" />
+  <img src="/images/f2662-87d8fb_279fdd5ed1e24394b76af996a3725989mv2.png" alt="VR View 3" />
+  
 </div>
