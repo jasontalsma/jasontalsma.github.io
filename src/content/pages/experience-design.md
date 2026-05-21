@@ -6,7 +6,7 @@ layoutType: "organic"
 
 _A series of six projects exploring the efficacy of rapid prototyping for Experience Design. Each project focuses on a set of tools._
 
-<div class="grid grid-cols-2 lg:grid-cols-3 gap-6 my-12">
+<div class="grid grid-cols-2 lg:grid-cols-3 gap-6 ">
   <a href="#shop-tools" class="group block no-underline">
     <div class="aspect-video overflow-hidden bg-[#1A1A1A]">
       <img src="/images/cbe61-87d8fb_4156236cf7dc48948d85729ba39e0407mv2_d_5312_2988_s_4_2.jpg" alt="Shop Tools" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
@@ -64,15 +64,15 @@ My idea was to organize clothing that I do not want to hang up or put in the ham
 
 I created a mechanical device to accept thrown clothing and make them more compact in some way. Many initial designs included triggered hooks to move the clothes into a corner of the room, out of the way. The final design was mounted flat along the wall beside a front door. Three arms were fitted with pegs for hanging clothing.
 
-<div class="grid grid-cols-1 md:grid-cols-3 gap-4 my-12">
+This wood worked project was a vertical slice of the front door organization experience. The form and function made it a successful looks-like and works-like prototype.
+
+The next steps of this design would be to gamify and enhance the experience of throwing clothes onto the rack. This would be accomplished by adding LEDs to the different pegs and/or a pivot for a balancing feature.
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4 ">
   <img src="/images/04d4e-87d8fb_2f4ee1dfffff4e0d8ca433dde275c1a9mv2_d_5312_2988_s_4_2.jpg" alt="Building Shop Tool 1" />
   <img src="/images/51698-87d8fb_6ecc14c6ade74f2f812bfc4870171badmv2_d_5312_2988_s_4_2.jpg" alt="Building Shop Tool 2" />
   <img src="/images/3a3c6-87d8fb_4edbebb614054c40a14e6153a6afaed3mv2_d_5312_2988_s_4_2.jpg" alt="Building Shop Tool 3" />
 </div>
-
-This wood worked project was a vertical slice of the front door organization experience. The form and function made it a successful looks-like and works-like prototype.
-
-The next steps of this design would be to gamify and enhance the experience of throwing clothes onto the rack. This would be accomplished by adding LEDs to the different pegs and/or a pivot for a balancing feature.
 
 ***
 
@@ -90,7 +90,7 @@ The laser cut design I decided to go with was an attempt to solve the clutter br
 
 My goal with this project was to create a laser cut mouse pad prototype that could attach to a laptop. The design is intended for those who are heavy users of a mouse pointer device with a portable computer. I intended to create a deployable system that articulates to offer a flexible flat surface that is extended from the main computer body when in use.
 
-<div class="grid grid-cols-2 md:grid-cols-3 gap-4 my-12">
+<div class="grid grid-cols-2 md:grid-cols-3 gap-4 ">
   <img src="/images/1a9a1-87d8fb_bb2a08c9f41c47b49a94e5da5b694f66mv2_d_5312_2988_s_4_2.jpg" alt="Laser Pad 3" />
   <img src="/images/7b227-87d8fb_e4ee13f2565d43f6ba1fbd494df4de31mv2_d_5312_2988_s_4_2.jpg" alt="Laser Pad 4" />
   <img src="/images/eff53-87d8fb_1c2f593386ae4f6daf5614c6ca80652bmv2_d_5044_2813_s_4_2.jpg" alt="Laser Pad 5" />
@@ -119,7 +119,7 @@ This 3D modeling and 3D printing project inspired a more curvaceous design to so
 
 I created a works-like and looks-like prototype, or a vertical slice, of the experience. The model was a rather accurate visual representation of the theoretical final product and could perform all its functions (money and lighter holding as well as bottle opening) but not to the degree or level of fidelity the final product would have to achieve. I utilized SolidWorks for digital model creation and a MakerBot FDM 3D printer for the fabrication of the digital file.
 
-<div class="grid grid-cols-2 md:grid-cols-3 gap-4 my-12">
+<div class="grid grid-cols-2 md:grid-cols-3 gap-4 ">
   <div class="aspect-video w-full overflow-hidden bg-[#111]">
     <img src="/images/e4560-87d8fb_cfb2e63f577546d39a82d9fcc9df4046mv2_d_4043_2695_s_4_2.jpg" alt="AM Build 1" class="w-full h-full object-cover" />
   </div>
@@ -155,7 +155,7 @@ Arduino microprocessor and C based code were leveraged to create a system for en
 
 I'm always concerned about forgetting my wallet in restaurants, passport in the airport, or my camera on a bench. International travel especially makes me want some way to tell if all the important items I'm carrying are in the right spot and to tell me that they are. I designed a system to count your items on the way out of the bag and the way back into the bag to check if something has been left out using a photo resistor and a vibration sensor with a stepper motor to close the zipper after use. I approached the idea trying to think of many different forms of feedback but kept coming back to the idea that it should be as unobtrusive as possible. The less conscious the interaction, the more pleasurable the interaction will be.
 
-<div class="grid grid-cols-1 md:grid-cols-3 gap-4 my-12">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4 ">
   <img src="/images/35476-87d8fb_cf3bc32462174eacbf10e92f34ade573mv2_d_4726_2835_s_4_2.jpg" alt="Arduino Prototype 1" />
   <img src="/images/c084b-87d8fb_47d3cb9a66024f4fa649d305a29ddc8dmv2_d_5312_2988_s_4_2.jpg" alt="Arduino Prototype 2" />
   <img src="/images/3b7a9-87d8fb_f7dcc7fd82b94f7fba19ca028bb18bbamv2_d_5312_2988_s_4_2.jpg" alt="Arduino Prototype 3" />
@@ -171,7 +171,7 @@ For this project, I edited a space to reduce clutter and improve usage. I decide
 
 I created a looks-like prototype where the user would be able to see what the new room experience would be like through augmented reality devices.
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-12">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 ">
   <div class="aspect-square w-full overflow-hidden bg-[#111]">
     <img src="/images/artg_ar_before-ezgif.com-video-to-gif-converter.gif" alt="AR Before" class="w-full h-full object-cover" />
   </div>
@@ -192,7 +192,7 @@ For this project, I created a virtual reality environment to depict a possible e
 
 I created a vertical slice prototype of the experience.
 
-<div class="grid grid-cols-2 lg:grid-cols-3 gap-4 my-12">
+<div class="grid grid-cols-2 lg:grid-cols-3 gap-4 ">
   <img src="/images/cbd21-87d8fb_af6f6c06cde845acaae092df7268b798mv2.png" alt="VR View 1" />
   <img src="/images/0db48-87d8fb_3224b2a5b8fc44779068a50325339073mv2.png" alt="VR View 4" />
   <img src="/images/f2662-87d8fb_279fdd5ed1e24394b76af996a3725989mv2.png" alt="VR View 3" />

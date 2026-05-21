@@ -4,27 +4,26 @@ date: 2024-04-04
 coverImage: "708ee-87d8fb_8ac065e1df474288a64120cb3bb85575mv2.png"
 layoutType: "technical"
 images:
-  - "/images/a7f8b-87d8fb_943a82df83fe430bb4b09da7b84bf121mv2.png"
-  - "/images/3ef2b-87d8fb_8c8603bb706340ababcdb353d5ba3396mv2.png"
+  - "/images/708ee-87d8fb_8ac065e1df474288a64120cb3bb85575mv2.png"
   - "/images/dfabf-87d8fb_eb2e988f075b47239770366c4732a822mv2_d_2898_3353_s_4_2.png"
   - "/images/e9062-87d8fb_2dff519730aa4c41b771420b57241acamv2_d_2959_3865_s_4_2.png"
   - "/images/ab74d-87d8fb_8e07aaa5b8744c1f913bc850781a6ddcmv2_d_2914_3777_s_4_2.png"
   - "/images/79e05-87d8fb_6afa4de74a6342c19dd872ff00f92513mv2_d_2938_2209_s_2.png"
   - "/images/073e9-87d8fb_62d085a0a8aa40c29ade1bcf03149a89mv2_d_2500_1875_s_2.jpg"
-  - "/images/d2dda-87d8fb_a8a8fb5462f14fa5bccf26fb4baa2ae1mv2.jpg"
-  - "/images/bd937-87d8fb_a8b2ce743cd942e487fca20a0e525bbemv2.jpg"
 ---
 
 _The goal of this university project was to solve a simple problem statement: carrying and using multiple cables is inefficient and the inevitable tangling damages them._
 
 Cubert was designed for young adults with mobile lifestyles. These individuals consistently carry multiple electrical cords to many locations throughout the day. My team and I spent a lot of time researching existing competition as we figured there must be a lot out there already; surprisingly there wasn't.
 
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
+<div class="grid grid-cols-2 gap-4">
+  <div class="aspect-[16:9] w-full overflow-hidden bg-[#111]">
+  <img src="/images/a7f8b-87d8fb_943a82df83fe430bb4b09da7b84bf121mv2.png" class="w-full h-full object-cover" />
+  </div>
+  <div class="aspect-[16:9] w-full overflow-hidden bg-[#111]">
+  <img src="/images/3ef2b-87d8fb_8c8603bb706340ababcdb353d5ba3396mv2.png" class="w-full h-full object-cover" />
+  </div>
+</div>
 
 The research, however, did lead us to a host of ideas.
 

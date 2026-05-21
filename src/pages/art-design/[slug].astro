@@ -39,7 +39,10 @@ const layoutType = entry.data.layoutType || 'technical';
   <section class="h-screen relative w-full overflow-hidden">
     <div 
       class="absolute inset-0 bg-cover bg-center scale-105 animate-fade-to-color"
-      style={`background-image: url('/images/${entry.data.coverImage}')`}
+      style={`
+      background-image: url('/images/${entry.data.coverImage}');
+      ${entry.id === 'experience-design' ? 'background-position: center top 30%;' : ''}
+    `}
     ></div>
     
     <div class="absolute inset-0 flex items-center px-4 md:px-32 justify-center">
@@ -109,6 +112,33 @@ const layoutType = entry.data.layoutType || 'technical';
   </div>
 </Layout>
 
+<script>
+  function initScrollReveal() {
+    // Selects body markdown images and right-hand side preview grid layout images
+    const images = document.querySelectorAll('.prose img, .prose figure img, .grid img');
+    
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px 0px -1% 0px', // Triggers slightly before crossing viewport base frame boundary
+      threshold: 0.15
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+          observer.unobserve(entry.target); 
+        }
+      });
+    }, observerOptions);
+
+    images.forEach(img => observer.observe(img));
+  }
+
+  // Bind to dynamic layout adjustments safely
+  document.addEventListener('astro:page-load', initScrollReveal);
+</script>
+
 <style is:global>
   @reference "../../index.css";
   .prose h1, .prose h2, .prose h3, .prose h4 {
@@ -126,15 +156,30 @@ const layoutType = entry.data.layoutType || 'technical';
   .prose strong {
     @apply text-white font-medium;
   }
-  .prose figure, .prose p > img {
+  .prose figure, 
+  .prose p > img, 
+  .prose iframe,
+  .prose > div:has(> img:only-child) {
     @apply my-16 block;
   }
-  .prose figure img, .prose img:not(.not-prose) {
-    @apply w-full grayscale brightness-75 hover:grayscale-0 hover:brightness-100 transition-all duration-700;
+  .prose div[class*="grid-cols-"],
+  .prose div[class*="gap-"] {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
   }
-  .prose figcaption {
-    @apply mt-6 text-sm text-[#F9F9F9]/40 font-light tracking-wide max-w-2xl;
+  .prose figure img, .prose img:not(.not-prose), .grid img {
+    @apply w-full grayscale brightness-50 transition-all duration-2000 ease-out;
   }
+  .prose figure img.in-view {
+    @apply grayscale-0 brightness-100;
+  }
+  .prose img:not(.not-prose).in-view {
+    @apply grayscale-0 brightness-100;
+  }
+  .grid img.in-view {
+    @apply grayscale-0 brightness-100;
+  }
+
   @keyframes fadeToColor {
   from {
     filter: grayscale(100%) brightness(0.70);

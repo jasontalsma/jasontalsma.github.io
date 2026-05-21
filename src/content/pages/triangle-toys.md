@@ -5,11 +5,13 @@ coverImage: "trianglecoverphoto.jpg"
 layoutType: "organic"
 ---
 
-_The goal of this project was to design a simple toy for a waiting room. This lead to simpler ways to achieve more complex methods of play. I decided to use one smaller, simpler piece to make many larger and more complex structures with as few rules as possible._
+_The goal of this project was to design a toy for a waiting room. I designed one simple toy that can be used to create more complex structures._
 
-The triangular shape was decided upon for its strength, comfort in the hand, and proficiently multiplicative angles. These design decisions accomplish durability, comfort, ease of use, and complexity of play. Many triangle shapes were attempted but the final form has the best tactile aspects as well as the ability to gyrate about its center of mass.
+The main idea was to offer a toy for those waiting for a short time (the toy spins and feels great in the hand) while at that same time offering more complex play for those waiting a longer time (the toys can connect to create structures).
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-12">
+The triangular shape was decided upon for its strength, comfort in the hand, and proficiently multiplicative angles. These design decisions accomplish durability, comfort, ease of use, and complexity of play. Many triangle shapes were attempted but the final form has the best tactile aspects as well as the ability to spin about its center of mass.
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
   <div class="aspect-[16:9] w-full overflow-hidden bg-[#111]">
   <img 
     src="/images/a8fd8-87d8fb_3c14762fea514dacbf40997f686c2f80mv2.jpg" alt="stufy 1" class="w-full h-full object-cover" />
@@ -22,7 +24,7 @@ The triangular shape was decided upon for its strength, comfort in the hand, and
 
 Creation of the triangles consisted of designing in Solidworks, 3D printing the toy, sculpting it to mimic the desired theoretical feel, and then finally painting the notches and CVS logo by hand.
 
-<div class="grid grid-cols-4 md:grid-cols-8 gap-4 my-12">
+<div class="grid grid-cols-4 md:grid-cols-8 gap-4">
   <img src="/images/b1275-87d8fb_0bc1ace88ac94679a6ff0f2ae85541b6mv2_d_2448_3264_s_4_2.jpg" alt="Creation Process 1" />
   <img src="/images/ed77e-87d8fb_5ba7358058094c1e9bacce400cdb0e32mv2_d_2448_3264_s_4_2.jpg" alt="Creation Process 2" />
   <img src="/images/58413-87d8fb_a4ab48805a3e445c8cb4d4ee92b8173fmv2_d_2448_3264_s_4_2.jpg" alt="Creation Process 3" />
@@ -59,28 +61,23 @@ Creation of the triangles consisted of designing in Solidworks, 3D printing the 
 
 A stone was photographed to make the 3D rendering. I tried two free mobile apps to stitch the 3d model and ended up using Autodesks offering that has since been retired. Different programs were used to find the best of all the resulting 3D models after fixing the solid model; this one can be seen below.
 
-<div class="aspect-[3/4] w-62 mx-auto overflow-hidden bg-[#111]">
+<div class="aspect-[3/4] w-62 mx-auto">
   <img 
     src="/images/d212f-87d8fb_095cfa697e894154ab64a82725bda025mv2.png" alt="render" class="w-full h-full object-cover" 
   />
 </div>
 
-</br>
-
 The scanned form was used as inspiration for the creation of the prototype toy models and throughout till the final printed functional prototype. The form inspired the solid feel in the hand and smooth finish of the final triangular connection toys.
 
-<div class="grid grid-cols-1 md:grid-cols-3 gap-4 my-12">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
   <div class="aspect-[16:9] w-full overflow-hidden bg-[#111]">
-  <img 
-    src="/images/a362c-87d8fb_e06702d00f6e4d59b89cc4bc0429e4fcmv2.jpg" class="w-full h-full object-cover" />
+  <img src="/images/a362c-87d8fb_e06702d00f6e4d59b89cc4bc0429e4fcmv2.jpg" class="w-full h-full object-cover" />
   </div>
   <div class="aspect-[16:9] w-full overflow-hidden bg-[#111]">
-  <img 
-    src="/images/202eb-87d8fb_28ee1285abed4157b4a73c57fe6d13a2mv2.jpg" class="w-full h-full object-cover" />
+  <img src="/images/202eb-87d8fb_28ee1285abed4157b4a73c57fe6d13a2mv2.jpg" class="w-full h-full object-cover" />
   </div>
   <div class="aspect-[16:9] w-full overflow-hidden bg-[#111]">
-  <img 
-    src="/images/4c471-87d8fb_d182fd4faf8e460da81ba961fce24c9emv2.jpg" class="w-full h-full object-cover" />
+  <img src="/images/4c471-87d8fb_d182fd4faf8e460da81ba961fce24c9emv2.jpg" class="w-full h-full object-cover" />
   </div>
 </div>
 
@@ -88,7 +85,7 @@ The triangle has proven itself to be one of the most simple and effective mechan
 
 The very purposefully pleasant to the touch smooth triangular form can connect perpendicularly at each of the vertexes by sliding towards each other into their respective carved slots. This type of connection allows for creation of repeating 3D patterns by means of easily assembled components that will easily lead to large structures and formations due to the drastic angles and their perpendicular joints.
 
-<div class="grid grid-cols-1 md:grid-cols-3 gap-4 my-12">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
   <img src="/images/88ee4-87d8fb_ec98b49fec0e408aa68105c13e10f22dmv2_d_3888_2592_s_4_2.jpg" alt="Mechanical Solution" />
   <img src="/images/48241-87d8fb_bddd138b3b56470aa70e7a8d9e6250f8mv2_d_3888_2592_s_4_2.jpg" alt="Complex Play" />
   <img src="/images/2ff54-87d8fb_054ea01660254751a61e67794f1dc23cmv2_d_2816_1880_s_2.jpg" alt="Multi-Functional" />

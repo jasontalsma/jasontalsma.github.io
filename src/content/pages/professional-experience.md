@@ -1,7 +1,7 @@
 ---
 title: "professional experience"
 date: 2024-04-04
-coverImage: "pxl_20210720_214348651.mp_.jpg"
+coverImage: "_rock4.jpg"
 layoutType: "organic"
 ---
 
@@ -26,7 +26,7 @@ _I deliver experience-focused design from concept to manufacturing, combining cr
     <li>Communicated cross-functionally with remote and in-person teams, managing mechanical communications and documentation for teammates, suppliers, CEO, contractors.</li>
   </ul>
 
-  <div class="grid grid-cols-2 md:grid-cols-3 gap-4 my-12">
+  <div class="grid grid-cols-2 md:grid-cols-3 gap-4 ">
     <a href="/engineering/remote" class="group overflow-hidden block">
       <img src="/images/remote-hand2.png" alt="Swivl Remote" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-102" />
     </a>
@@ -58,11 +58,12 @@ _I deliver experience-focused design from concept to manufacturing, combining cr
     <li>Drafted detailed drawings for US patents, fabrication orders, assembly instructions, and technician installation guides.</li>
   </ul>
 
-  <div class="grid grid-cols-2 md:grid-cols-3 gap-4 my-12">
-    <img src="/images/908f7-87d8fb_2cbf918813524245bdbff39342d06ab4mv2_d_2803_3410_s_4_2.jpg" alt="KEA Project 1" />
-    <img src="/images/d082e-87d8fb_bd9f5b40b0f44bdb9a86c85932f306a2mv2_d_4080_2753_s_4_2.jpg" alt="KEA Project 3" />
-    <img src="/images/e2026-87d8fb_9f368db73bff40328d0fbccc53093e1dmv2.gif" alt="KEA Project 5" />
-
+  <div class="grid grid-cols-2 md:grid-cols-3 gap-4 ">
+      <img src="/images/908f7-87d8fb_2cbf918813524245bdbff39342d06ab4mv2_d_2803_3410_s_4_2.jpg" alt="KEA 1" class="w-full h-full object-cover" />
+      <img src="/images/d082e-87d8fb_bd9f5b40b0f44bdb9a86c85932f306a2mv2_d_4080_2753_s_4_2.jpg" alt="KEA 2" class="w-full h-full object-cover" />
+      <a href="/engineering/alcohol-sensor" class="group overflow-hidden block">
+        <img src="/images/e2026-87d8fb_9f368db73bff40328d0fbccc53093e1dmv2.gif" alt="KEA Demo" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-102" />
+      </a>
   </div>
 </div>
 
@@ -132,7 +133,7 @@ _I deliver experience-focused design from concept to manufacturing, combining cr
     <li>Implemented an electronics business and school, a creatively streamlined poultry farm, rice and cassava farm models, and explored the breeding and selling of fish through a micro-consignment business model.</li>
   </ul>
 
-  <div class="grid grid-cols-2 md:grid-cols-3 gap-4 my-12">
+  <div class="grid grid-cols-3 gap-4 ">
     <img src="/images/d8ecb-87d8fb_e3f3b8dd4e45496697932aae74451e45mv2_d_3200_2400_s_4_2.jpg" alt="Atal 2" />
     <img src="/images/0dcf5-87d8fb_65f091cd73254be993707077f2e35b95mv2_d_2400_3200_s_4_2.jpg" alt="Atal 3" />
     <img src="/images/8f5cd-87d8fb_a11bb2c9f9e047e88bf25111750fb398mv2_d_2400_3200_s_4_2.jpg" alt="Atal 4" />

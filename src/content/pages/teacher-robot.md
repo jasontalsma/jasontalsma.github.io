@@ -5,60 +5,58 @@ coverImage: "swivl-robot-for-website2.png"
 layoutType: "technical"
 textColor: "black"
 images:
-  - "/images/swivl-robot-for-website.png"
-  - "/images/pxl_20210223_192735271.mp_.jpg"
-  - "/images/pxl_20210218_015513387.mp_.jpg"
-  - "/images/pxl_20210205_192302648.mp_.jpg"
-  - "/images/pxl_20210205_232235043.mp_.jpg"
-  - "/images/pxl_20210208_215209664.mp_.jpg"
-  - "/images/pxl_20210218_003300649.mp_.jpg"
-  - "/images/pxl_20210512_173340823.mp_.jpg"
-  - "/images/pxl_20210614_221034281.jpg"
-  - "/images/pxl_20210816_224451293.mp_.jpg"
-  - "/images/pxl_20210816_201410932.mp_.jpg"
-  - "/images/pxl_20210629_152432002.mp_.jpg"
   - "/images/robot-teacher-recording-1.png"
+  - "/images/PXL_20210205_174148843.MP.jpg"
+  - "/images/PXL_20210322_170104525.MP.jpg"
+  - "/images/PXL_20210223_223206017.MP.jpg"
+  - "/images/PXL_20210223_223148770.MP.jpg"
+  - "/images/PXL_20210223_223137575.MP.jpg"
+  - "/images/PXL_20210512_180517288.MP.jpg"
+  - "/images/20200908_095434.jpg"
+  - "/images/PXL_20210119_200027251.MP.jpg"
+  - "/images/PXL_20210201_220909934.MP.jpg"
+  - "/images/PXL_20220125_221915162.MP.jpg"
+
 ---
 
-_My main roles included sustaining responsibilities, model update, accessory development, rebranding, CMF updates, and production operations for an existing product built for teachers._
+_The goals of this project included sustaining responsibilities, model update, accessory development, rebranding, CMF updates, and production operations for an existing electro-mechanical product built for teachers._
 
-The Swivl Robot is a tool to capture video artifacts for reflection, coaching, and collaboration conversations aimed to help teachers adapt.
+The Swivl Robot is a tool to capture video artifacts for reflection, coaching, and collaboration conversations aimed to help teachers adapt. This product was heavily backlogged by pandemic demands.
 
-Some main responsibilities, highlights, and issues from my time with this project:
+My main responsibilities, highlights, and issues from my time with this project:
 
-- spearheaded all sustaining engineer responsibilities
-- built and verified two new accessories
-- developed and released a new model update of CMF and internal components
-- completed a rebrand for the entire product, including printed materials and packaging
-- helped CEO manage the unit's production operations before and during a 10x increase in sales and navigating supply chain issues and enormous backlogs
+<ul class="list-disc pl-6 space-y-2">
+  <li>Spearheaded all sustaining engineer responsibilities.</li>
+  <li>Built and released two new accessories.</li>
+  <li>Developed and released a new model update.</li>
+  <li>Completed a rebrand for the entire product, including CMF, printed materials, and packaging.</li>
+  <li>Helped CEO manage the unit's production operations before and during a 10x increase in sales while navigating supply chain issues and enormous backlogs.</li>
+</ul>
 
-![Robot Overview](/images/swivl-robot-for-website.png)
+For one of the accessory designs, I tackled a common customer pain point — tablets weren’t being securely held in the product design. I devised a solution that balanced customer feedback with a practical fix.
 
-For the accessory design, one of my first projects, I tackled a common customer pain point — tablets weren’t being securely held in the product design. I devised a solution that balanced customer feedback with a practical fix. Next time, I’d consider more extensive user testing earlier in the design phase (not very possible due to COVID 19).
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4 ">
+  <img src="/images/pxl_20210512_173340823.mp_.jpg"/>
+  <img src="/images/pxl_20210218_015513387.mp_.jpg"/>
+  <img src="/images/pxl_20210223_192735271.mp_.jpg"/>
+  <img src="/images/pxl_20210205_192302648.mp_.jpg"/>
+  <img src="/images/pxl_20210205_232235043.mp_.jpg"/>
+  <img src="/images/pxl_20210208_215209664.mp_.jpg"/>
+  <img src="/images/PXL_20210309_162607507.MP.jpg"/>
+  <img src="/images/PXL_20210322_164621351.MP.jpg"/>
+  <img src="/images/PXL_20210223_192655510.MP.jpg"/>
+</div>
 
-### Media Gallery
-- ![](/images/pxl_20210223_192735271.mp_.jpg)
-- ![](/images/pxl_20210218_015513387.mp_.jpg)
-- ![](/images/pxl_20210205_192302648.mp_.jpg)
-- ![](/images/pxl_20210205_232235043.mp_.jpg)
-- ![](/images/pxl_20210208_215209664.mp_.jpg)
-- ![](/images/pxl_20210218_003300649.mp_.jpg)
-- ![](/images/pxl_20210512_173340823.mp_.jpg)
+For the model update, I managed minor tool changes, new cables, and simple board changes, creating 3D designs, over-mold designs, and 2D schematics. This experience expanded my practical knowledge of over-molding processes and reinforced the importance of clear communication between design and production.
 
-I managed minor tool changes, new cable designs, and simple board changes, creating 3D designs, over-mold designs, and 2D schematics. This experience expanded my practical knowledge of over-molding processes and reinforced the importance of clear communication between design and production, particularly common 2D schematics details.
-
-In color and CMF (color, material, finish) development, I applied design trends and brand alignment to create fresh color strategies. Next time, I’d push for more options to be tested at one time, and that some farther out there ideas be tested alongside the safer options.
-
-![CMF Study 1](/images/pxl_20210614_221034281.jpg)
-![CMF Study 2](/images/pxl_20210816_224451293.mp_.jpg)
-
-I lead the update of the logo and learned how much of an impact on manufacturing even a small change to something like a logo can have as well as the cascading logistics issues it creates. Updating and verifying all printed materials required ensuring all packaging, manuals, and inserts were aligned with both the product’s function and the brand’s visual identity.
-
-![Logo Update 1](/images/pxl_20210816_201410932.mp_.jpg)
-![Logo Update 2](/images/pxl_20210629_152432002.mp_.jpg)
+![full set](/images/swivlset.jpg)
 
 Remote CMF design work required me to develop solutions for color and finish without the ability to evaluate them in person with my team. I reviewed and verified all samples against design specs to ensure they met our standards.
 
-![Teacher Recording](/images/robot-teacher-recording-1.png)
+![CMF](/images/3swivls.jpg)
 
-I led production scheduling, coordinating timelines to handle a rapid 10x sales increase while managing supply chain disruptions. This role sharpened my ability to balance production demands with resource limitations. These lessons lead our team to diversify manufacturing locations. I was in direct communication with our manufacturing partner in China, managing design, production, and shipment processes. Managing the unit’s production during a 10x increase in sales was a massive challenge, particularly while navigating supply chain disruptions and order backlogs. Additionally, weaving in design changes during complex material sourcing and production schedules required adaptability and quick decision-making. The small, fast, and loose nature of the team and our processes were the only way were able to keep moving during those days.
+While updaing the logo and color design I learned about cascading logistics issues. Updating and verifying all printed materials required ensuring all packaging, manuals, and inserts were aligned. I applied design trends and brand alignment to create fresh color strategies.
+
+![Logo Update 2](/images/pxl_20210629_152432002.mp_.jpg)
+
+Orchestrated end-to-end product design, manufacturing, and logistics to rapidly scale production 10x amidst severe global supply chain disruptions. Managed operations through both precise remote coordination and direct, on-the-ground factory floor intervention in China. Agilely integrated design modifications into complex sourcing schedules and eliminated critical order backlogs by leading the strategic diversification of manufacturing locations.
