@@ -58,7 +58,9 @@ _The goal of this project was to explore my thesis: adding functionality to comm
 
 The modular cutlery design piece was put on display at the Boston Design Center for 2 weeks alongside other students' completed sets.
 
-![Boston Design Center Display](/images/image.png)
+<div class="aspect-[9:16] w-150 overflow-hidden mx-auto bg-[#111]">
+  <img src="/images/omnicut2.jpg" alt="omnicut" class="w-full h-full object-cover object-bottom" />
+</div>
 
 A designer lamp was photographed in the Boston Design Center to make the 3D rendering. The resulting model was sent through programs such as Microsoft 3D Repair to ensure the mesh was complete enough to be altered; developing techniques to seal and manipulate meshes of complex 3D models with thousands of vertices.
 
@@ -97,19 +99,29 @@ A designer lamp was photographed in the Boston Design Center to make the 3D rend
   <img src="/images/f470f-87d8fb_3165cf11d65c4ca5bb0ba5ba6e52e9eemv2_d_2592_3888_s_4_2.jpg" class="w-full" />
 </div>
 
-I began with sketches of ideas for a complete set of useful forms solely by recontextualizing the scanned lamp shape. These ideas ranged from interior automotive elements to bedroom furniture sets and, of course, to chopsticks. The displayed sketches show some of the brainstorming already within the realm of dishware.
+The resulting full 3D scan, and the cleaned up file generated from it, can be seen here. 
 
-These sketches were transformed into 3D sketches in Solidworks and further model manipulation was done within and between Maya, Adobe Illustrator, Netfabb, and Blender.
 
-<div class="grid grid-cols-4 gap-8">
-  <img src="/images/6130e-87d8fb_253413b2ac8b477d959f214c152c7edamv2.png" />
-  <img src="/images/58292-87d8fb_0cfb485cf9804e26b238d6191878fe80mv2.png" />
-  <img src="/images/39e4f-87d8fb_c56e77a36e5f403994503d3185056f10mv2.png" />
-  <img src="/images/159a0-87d8fb_28a620674b034a4c8585e83f910d67a7mv2.png" />
-  <img src="/images/171ec-87d8fb_c415a410b78d4e0095f0eebae2725964mv2.png" />
-  <img src="/images/e93b3-87d8fb_063f75c07ff248e4a84c88ea79d71d00mv2.png" />
-  <img src="/images/6ccaa-87d8fb_89452758ebc1449e8deab0db83d5c3admv2.png" />
-  <img src="/images/46182-87d8fb_29653ceb65984c4ba16924047a37ca69mv2.png" />
+<div class="grid grid-cols-2 gap-4">
+  <div class="aspect-[9:16] w-full overflow-hidden bg-[#111]">
+  <img src="/images/omni3dscan.jpg" class="w-full h-full object-cover" />
+  </div>
+  <div class="aspect-[9:16] w-full overflow-hidden bg-[#111]">
+  <img src="/images/omni3dfile.jpg" class="w-full h-full object-cover" />
+  </div>
+</div>
+
+I began with sketches of ideas for a complete set of useful forms solely by recontextualizing the scanned lamp shape. These ideas ranged from interior automotive elements to bedroom furniture sets and, of course, to chopsticks.
+
+The tools used began with Solidworks and further model manipulation was done with Maya, Adobe Illustrator, Netfabb, and Blender.
+
+<div class="grid grid-cols-2 gap-4">
+  <img src="/images/omnis2.jpg" />
+  <img src="/images/omnis.jpg" />
+  <img src="/images/omnif2.jpg" />
+  <img src="/images/omnif3.png" />
+  <img src="/images/o-knife.png" />
+  <img src="/images/omnichop.jpg" />
 </div>
 
 The final chopsticks and cutlery pieces were printed in a ceramic printer, a much higher precision, better tactile response, and more dense than plastic printed materials. The machine was a ProJet from 3D Systems.

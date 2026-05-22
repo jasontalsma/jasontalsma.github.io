@@ -5,7 +5,7 @@ coverImage: "_rock4.jpg"
 layoutType: "organic"
 ---
 
-_I deliver experience-focused design from concept to manufacturing, combining creative problem-solving, rapid prototyping, and cross-cultural collaboration across diverse industries._
+_I deliver experience-focused design from concept through manufacturing, combining creative problem-solving, rapid prototyping, and cross-cultural collaboration in diverse industries._
 
 <div class="mb-20">
   <img src="/images/swivl_logo_wordmark_white.png" alt="Swivl Logo" class="not-prose w-48 mb-8 block object-contain" />
