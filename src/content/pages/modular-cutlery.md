@@ -56,11 +56,13 @@ images:
 
 _The goal of this project was to explore my thesis: adding functionality to common tools by means of personal 3D designing and printing technology._
 
-The modular cutlery design piece was put on display at the Boston Design Center for 2 weeks alongside other students' completed sets.
+![omnicut logo](/images/omnicut-png-no-bg.png)
 
 <div class="aspect-[9:16] w-150 overflow-hidden mx-auto bg-[#111]">
   <img src="/images/omnicut2.jpg" alt="omnicut" class="w-full h-full object-cover object-bottom" />
 </div>
+
+The modular cutlery design piece was put on display at the Boston Design Center for two weeks alongside other students' completed sets.
 
 A designer lamp was photographed in the Boston Design Center to make the 3D rendering. The resulting model was sent through programs such as Microsoft 3D Repair to ensure the mesh was complete enough to be altered; developing techniques to seal and manipulate meshes of complex 3D models with thousands of vertices.
 

@@ -1,18 +1,37 @@
 ---
 title: "professional experience"
-date: 2024-04-04
+date: 2026-05-22
 coverImage: "_rock4.jpg"
 layoutType: "organic"
 ---
 
 _I deliver experience-focused design from concept through manufacturing, combining creative problem-solving, rapid prototyping, and cross-cultural collaboration in diverse industries._
 
+
+<div class="mb-20">
+  <div class="text-5xl font-black tracking-tighter uppercase text-white mb-8 select-none">Contract Mechanical Engineer</div>
+
+  <h3 class="text-xl font-bold uppercase tracking-tight">Independent Consultant</h3>
+  <p class="text-[10px] tracking-[0.3em] uppercase text-[#F9F9F9]/40 mb-1">Remote, USA | Current</p>
+
+  <p class="mb-6 text-[#F9F9F9]/90">On-demand design support for hardware programs at any development stage.</p>
+
+  <ul class="list-disc list-outside ml-4 space-y-2 text-[#F9F9F9]/80">
+    <li>Delivered technical designs for complex, niche hardware challenges on a contract basis.</li>
+    <li>Executed precise design modifications within complex large-scale CAD assemblies, ensuring seamless alignment across distributed teams.</li>
+    <li>Proven ability to quickly onboard into mid-cycle projects, providing immediate support.</li>
+    <li>Analyzed and refined existing one-off manufacturing station designs, implementing new client requests, technical upgrades, and mechanism improvements.</li>
+  </ul>
+
+<br />
+<br />
+<br />
+
 <div class="mb-20">
   <img src="/images/swivl_logo_wordmark_white.png" alt="Swivl Logo" class="not-prose w-48 mb-8 block object-contain" />
   
   <h3 class="text-xl font-bold uppercase tracking-tight">Mechanical Engineer</h3>
-  <p class="text-[10px] tracking-[0.3em] uppercase text-[#F9F9F9]/40 mb-1">Menlo Park, California, USA</p>
-  <p class="text-xs italic text-[#F9F9F9]/60 mb-6">March 2020 - December 2023</p>
+  <p class="text-[10px] tracking-[0.3em] uppercase text-[#F9F9F9]/40 mb-1">Menlo Park, California, USA | Mar 2020 - Dec 2023</p>
 
   <p class="mb-6 text-[#F9F9F9]/90">Since 2010, Swivl has been building tools to accelerate reflection in schools and beyond. Using data-assisted, high quality audio and video capture used by students and teachers for reflection and remote learning.</p>
 
@@ -26,7 +45,7 @@ _I deliver experience-focused design from concept through manufacturing, combini
     <li>Communicated cross-functionally with remote and in-person teams, managing mechanical communications and documentation for teammates, suppliers, CEO, contractors.</li>
   </ul>
 
-  <div class="grid grid-cols-2 md:grid-cols-3 gap-4 ">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-4 ">
     <a href="/engineering/remote" class="group overflow-hidden block">
       <img src="/images/remote-hand2.png" alt="Swivl Remote" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-102" />
     </a>
@@ -47,8 +66,7 @@ _I deliver experience-focused design from concept through manufacturing, combini
   <img src="/images/7de28-87d8fb_44cf0a34aba54a51a4354ebc0ebe5e74mv2.png" alt="KEA Logo" class="not-prose w-48 mb-8 block object-contain" />
 
   <h3 class="text-xl font-bold uppercase tracking-tight">Associate Engineer</h3>
-  <p class="text-[10px] tracking-[0.3em] uppercase text-[#F9F9F9]/40 mb-1">Marlborough, Massachusetts, USA</p>
-  <p class="text-xs italic text-[#F9F9F9]/60 mb-6">July-December 2018</p>
+  <p class="text-[10px] tracking-[0.3em] uppercase text-[#F9F9F9]/40 mb-1">Marlborough, Massachusetts, USA | July-Dec 2018</p>
 
   <p class="mb-6 text-[#F9F9F9]/90">KEA is a full-service R&D company providing engineering solutions and extensive subject-matter expertise applied to the automotive industry and others such as transportation, defense, and the oil & gas sector. Partners with government programs and Ford Motor Company.</p>
 
@@ -58,7 +76,7 @@ _I deliver experience-focused design from concept through manufacturing, combini
     <li>Drafted detailed drawings for US patents, fabrication orders, assembly instructions, and technician installation guides.</li>
   </ul>
 
-  <div class="grid grid-cols-2 md:grid-cols-3 gap-4 ">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-4 ">
       <img src="/images/908f7-87d8fb_2cbf918813524245bdbff39342d06ab4mv2_d_2803_3410_s_4_2.jpg" alt="KEA 1" class="w-full h-full object-cover" />
       <img src="/images/d082e-87d8fb_bd9f5b40b0f44bdb9a86c85932f306a2mv2_d_4080_2753_s_4_2.jpg" alt="KEA 2" class="w-full h-full object-cover" />
       <a href="/engineering/alcohol-sensor" class="group overflow-hidden block">
@@ -75,8 +93,7 @@ _I deliver experience-focused design from concept through manufacturing, combini
   <img src="/images/334e0-87d8fb_b7b2205e6278482a99febebf59714c32mv2.png" alt="Sentieo Logo" class="not-prose w-48 mb-8 block object-contain" />
 
   <h3 class="text-xl font-bold uppercase tracking-tight">Sales & Marketing Co-op</h3>
-  <p class="text-[10px] tracking-[0.3em] uppercase text-[#F9F9F9]/40 mb-1">San Francisco, California, USA</p>
-  <p class="text-xs italic text-[#F9F9F9]/60 mb-6">July-December 2017</p>
+  <p class="text-[10px] tracking-[0.3em] uppercase text-[#F9F9F9]/40 mb-1">San Francisco, California, USA | July-Dec 2017</p>
 
   <p class="mb-6 text-[#F9F9F9]/90">Built by former hedge fund analysts and professional investors, Sentieo provides next generation equity research and research management software solutions to small shops as well as larger enterprise financial firms.</p>
 
@@ -96,8 +113,7 @@ _I deliver experience-focused design from concept through manufacturing, combini
   <img src="/images/5b6ea-87d8fb_d9aeb86264c4487fa1c2dfb09332e618mv2.png" alt="Eastek Logo" class="not-prose w-48 mb-8 block object-contain" />
 
   <h3 class="text-xl font-bold uppercase tracking-tight">Engineering Co-op</h3>
-  <p class="text-[10px] tracking-[0.3em] uppercase text-[#F9F9F9]/40 mb-1">Dongguan, China</p>
-  <p class="text-xs italic text-[#F9F9F9]/60 mb-6">July-December 2016</p>
+  <p class="text-[10px] tracking-[0.3em] uppercase text-[#F9F9F9]/40 mb-1">Dongguan, China | July-Dec 2016</p>
 
   <p class="mb-6 text-[#F9F9F9]/90">An American owned and operated company providing world-class manufacturing services from DFM support through distribution with their established global footprint.</p>
 
@@ -122,8 +138,7 @@ _I deliver experience-focused design from concept through manufacturing, combini
   <div class="text-5xl font-black tracking-tighter uppercase text-white mb-8 select-none">Atal</div>
 
   <h3 class="text-xl font-bold uppercase tracking-tight">Social Researcher</h3>
-  <p class="text-[10px] tracking-[0.3em] uppercase text-[#F9F9F9]/40 mb-1">Ogoja LGA, Cross River State, Nigeria</p>
-  <p class="text-xs italic text-[#F9F9F9]/60 mb-6">June-August 2014</p>
+  <p class="text-[10px] tracking-[0.3em] uppercase text-[#F9F9F9]/40 mb-1">Ogoja LGA, Cross River State, Nigeria | June-Aug 2014</p>
 
   <p class="mb-6 text-[#F9F9F9]/90">Atal identifies local business opportunities, demonstrates viability, and provides opportunities for others in our extensive local networks to benefit economically from these businesses.</p>
 
