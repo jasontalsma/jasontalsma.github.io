@@ -70,6 +70,6 @@ gallery2:
 
 Textile production is the world’s second most polluting industry, second only to the oil industry. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8257395/" target="_blank" class="text-[10px] align-top ml-1 hover:underline text-white/40"><sup>[1]</sup></a>
 
-The goal is to reuse and divert waste from one of our largest material uses (textiles) while also celebrating and signaling its global importance.
+The goal is to reuse and divert waste from one of our largest waste streams while also celebrating and signaling its global impact by sourcing materials from those most adversely affected by the current industry.
 
 Textiles are personally sourced from Nigeria and Ghana and discarded garments are collected in the US. I am exploring how to further existing industry and art while directly reducing the strain of new materials and their waste on our planet. Special attention is paid to combining multiple processes to reach a zero waste system. There is no scrap. All organic waste from this project is diverted to **[mycelium form and design research.](/art-design/mycelium)** 

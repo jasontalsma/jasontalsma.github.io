@@ -5,8 +5,26 @@ coverImage: "_rock4.jpg"
 layoutType: "organic"
 ---
 
-_I deliver experience-focused design from concept through manufacturing, combining creative problem-solving, rapid prototyping, and cross-cultural collaboration in diverse industries._
+<div class="grid grid-cols-2 gap-4 ">
+  <div class="md:text-center">
+    I bring to a team
+  </div>
+  <div>
+    <ul class="list-disc list-outside ml-4 space-y-0 text-[#F9F9F9]/80">
+      <li>Full-lifecycle product development</li>
+      <li>Rapid prototyping and fabrication</li>
+      <li>DFMA + scaling</li>
+      <li>Physical UX</li>
+      <li>Interdisciplinary collaboration</li>
+      <li>Adaptability across industries + cultures</li>
+    </ul>
+  </div>
+</div>
+  
 
+<br />
+<br />
+<br />
 
 <div class="mb-20">
   <div class="text-5xl font-black tracking-tighter uppercase text-white mb-8 select-none">Contract Mechanical Engineer</div>
