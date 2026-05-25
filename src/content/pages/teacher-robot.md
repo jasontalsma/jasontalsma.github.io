@@ -55,7 +55,7 @@ Remote CMF design work required me to develop solutions for color and finish wit
 
 ![CMF](/images/3swivls.jpg)
 
-While updaing the logo and color design I learned about cascading logistics issues. Updating and verifying all printed materials required ensuring all packaging, manuals, and inserts were aligned. I applied design trends and brand alignment to create fresh color strategies.
+While updating the logo and color design I learned about cascading logistics issues. Updating and verifying all printed materials required ensuring all packaging, manuals, and inserts were aligned. I applied design trends and brand alignment to create fresh color strategies.
 
 ![Logo Update 2](/images/pxl_20210629_152432002.mp_.jpg)
 
