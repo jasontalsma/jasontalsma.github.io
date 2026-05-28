@@ -22,6 +22,7 @@ const { title, bodyClass = "" } = Astro.props;
 		<ClientRouter />
 	</head>
 	<body class={`bg-[#0B0B0B] text-[#F9F9F9] font-sans selection:bg-[#F9F9F9] selection:text-[#0B0B0B] ${bodyClass}`}>
+		<div id="custom-cursor" class="custom-dot"></div>
 		<nav class="fixed top-0 left-0 w-full h-16 bg-[#0B0B0B] z-50 flex items-center px-4 md:px-8 border-b border-[#F9F9F9]/10">
 			<!-- Mobile Hamburger Menu Button -->
 			<button id="mobile-menu-toggle" class="md:hidden p-2 -ml-2 text-[#F9F9F9]/60 hover:text-[#F9F9F9] transition-colors" aria-label="Toggle menu">
@@ -234,6 +235,39 @@ const { title, bodyClass = "" } = Astro.props;
 					initMobileMenu();
 				});
 			}
+			// custom cursor shit
+			function initCustomCursor() {
+			const dot = document.getElementById('custom-cursor');
+			if (!dot) return;
+
+			let mouseX = 0, mouseY = 0;
+			
+			// Update position
+			window.onmousemove = (e) => {
+				mouseX = e.clientX;
+				mouseY = e.clientY;
+				dot.style.left = `${mouseX}px`;
+				dot.style.top = `${mouseY}px`;
+			};
+
+			// Event delegation to catch dynamic layout elements
+			document.body.addEventListener('mouseover', (e) => {
+				const target = e.target.closest('a, button, [role="button"], .cursor-zoom-out');
+				if (target) {
+					dot.classList.add('active');
+				}
+			});
+
+			document.body.addEventListener('mouseout', (e) => {
+				const target = e.target.closest('a, button, [role="button"], .cursor-zoom-out');
+				if (target) {
+					dot.classList.remove('active');
+				}
+			});
+		}
+
+		// Hook into Astro's lifecycle
+		document.addEventListener('astro:page-load', initCustomCursor);
 		</script>
 		//Fullscreen Lightbox Overlay Container
 		<div id="image-modal" class="fixed inset-0 bg-[#0B0B0B]/95 z-[200] hidden flex items-center justify-center cursor-zoom-out" transition:persist>
@@ -268,5 +302,37 @@ const { title, bodyClass = "" } = Astro.props;
 	}
 	::-webkit-scrollbar-thumb:hover {
 		background: #555;
+	}
+
+	/* Disable default pointer on interactive elements */
+	a, button, [role="button"], .cursor-zoom-out {
+		cursor: none !important;
+	}
+
+	/* Custom Cursor Element */
+	.custom-dot {
+		width: 12px;
+		height: 12px;
+		background-color: #000000;
+		border: 1px solid rgba(249, 249, 249, 0.4); /* Makes it visible on dark backgrounds */
+		border-radius: 50%;
+		position: fixed;
+		pointer-events: none; /* Prevents the dot from blocking clicks */
+		z-index: 9999;
+		transform: translate(-50%, -50%) scale(0);
+		opacity: 0;
+		transition: transform 0.15s ease-out, opacity 0.15s ease-out;
+	}
+
+	/* Active state with pulse animation */
+	.custom-dot.active {
+		transform: translate(-50%, -50%) scale(1);
+		opacity: 1;
+		animation: pulse-circle 1.5s infinite ease-in-out;
+	}
+
+	@keyframes pulse-circle {
+		0%, 100% { transform: translate(-50%, -50%) scale(1); box-shadow: 0 0 0 0 rgba(249, 249, 249, 0.3); }
+		50% { transform: translate(-50%, -50%) scale(1.3); box-shadow: 0 0 0 6px rgba(249, 249, 249, 0); }
 	}
 </style>
