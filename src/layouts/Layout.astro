@@ -212,12 +212,20 @@ const { title, bodyClass = "" } = Astro.props;
 					};
 				});
 
-				modal.onclick = () => {
-					modal.classList.add('hidden');
-					document.body.style.overflow = '';
-					modalImg.src = '';
-				};
-			}
+				modal.onclick = closeModal;
+				}
+
+				// Global escape listener attached once
+				document.addEventListener('keydown', (e) => {
+					const modal = document.getElementById('image-modal');
+					if (e.key === 'Escape' && modal && !modal.classList.contains('hidden')) {
+						modal.classList.add('hidden');
+						document.body.style.overflow = '';
+						const modalImg = document.getElementById('modal-img');
+						if (modalImg) modalImg.src = '';
+					}
+				});
+				
 			// Initialize on load and on transitions
 			document.addEventListener('astro:page-load', () => {
 				initAudio();
